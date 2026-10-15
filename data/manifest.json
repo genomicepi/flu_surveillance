@@ -1,5 +1,5 @@
 {
-  "retrieved_at_utc": "20261015T174641726735Z",
+  "retrieved_at_utc": "20261015T175440835801Z",
   "endpoint": "https://gis.cdc.gov/flu2/PostPhase02StackedColumnChartDataDownload",
   "geography": "National",
   "laboratories": "Clinical",
@@ -33,7 +33,8 @@
       "last_observation": [
         2026,
         39
-      ]
+      ],
+      "report_url": "https://www.cdc.gov/fluview/surveillance/2026-week-39.html"
     },
     {
       "label": "2024-25",
@@ -64,7 +65,8 @@
       "last_observation": [
         2025,
         39
-      ]
+      ],
+      "report_url": "https://www.cdc.gov/fluview/surveillance/2025-week-39.html"
     }
   ]
 }

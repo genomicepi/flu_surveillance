@@ -92,6 +92,8 @@ def main():
         downloads.append((name, text))
         manifest["seasons"].append({"label": label, "rows": len(rows), "request": payload,
                                      "last_observation": max((int(r["YEAR"]), int(r["WEEK"])) for r in rows)})
+        year, week = manifest["seasons"][-1]["last_observation"]
+        manifest["seasons"][-1]["report_url"] = f"https://www.cdc.gov/fluview/surveillance/{year}-week-{week}.html"
         print(f"{label}: {len(rows)} weeks")
     # Promote only after every requested season has passed validation.
     for name, text in downloads:

@@ -1,14 +1,13 @@
 # Flu surveillance
 
-National clinical-laboratory influenza data from the CDC FluView chart, with three example figures exported as PNG and SVG.
+National clinical-laboratory influenza data from the CDC FluView chart, plus the CDC ILINet state/jurisdiction activity map, exported as PNG and SVG.
 
 ## Run
 
 ```sh
 cd /Users/kja/Documents/GitHub/flu_surveillance
 python3 -m pip install -r requirements.txt
-python3 fetch.py --seasons 2025-26 2024-25
-python3 plot.py --current 2025-26 --previous 2024-25
+python3 update.py
 ```
 
 `fetch.py` without arguments retrieves the latest two enabled seasons from CDC metadata. Plot season arguments default to the initial review pair, 2025–26 and 2024–25; change them when the season rolls over. The GitHub Actions workflow refreshes daily at 18:23 UTC and can also be run manually.
@@ -19,7 +18,7 @@ The overview shows one season: colors distinguish influenza A, influenza B, and 
 
 ## Automated updates
 
-Run `python update.py` to fetch the latest two enabled seasons and plot that exact pair, including season rollover. The GitHub Actions workflow runs on Ubuntu daily at 18:23 UTC, on relevant pushes to `main`, or via **Actions → Update flu surveillance → Run workflow**.
+Run `python update.py` to fetch the latest two enabled seasons and plot that exact pair, including season rollover. It also fetches the latest published state/jurisdiction ILI activity week and renders the map. The two sources select their latest available weeks independently; each figure labels its own data date. The GitHub Actions workflow runs on Ubuntu daily at 18:23 UTC, on relevant pushes to `main`, or via **Actions → Update flu surveillance → Run workflow**.
 
 Each CDC response logs its HTTP status, method, and URL. HTTP errors also log a short response-body excerpt. A 403 fails the run without retrying that status or committing outputs. Successful runs commit refreshed data, archived snapshots, and plots to `main`. Each run uploads a 30-day artifact containing the log and available data/plots, even on failure; files in a failed run's artifact may be from the previous successful refresh, so check the manifest timestamp and log.
 
@@ -32,9 +31,17 @@ Each CDC response logs its HTTP status, method, and URL. HTTP errors also log a 
 - `plots/02_year_over_year.{png,svg}`: positivity comparison and the latest equivalent-week difference in percentage points.
 - `plots/03_year_over_year_by_type.{png,svg}`: A and B positivity comparisons with a shared scale.
 
+- `data/ili_latest.{json,csv}`: latest ILI activity levels, week, and jurisdiction data; JSON includes source metadata, colors, and report URL.
+- `data/ili_snapshots/TIMESTAMP/`: archived raw CDC ILI response and normalized map data.
+- `plots/04_ili_activity_map.{png,svg}`: latest state/jurisdiction ILI activity map using CDC colors and inset boundaries.
+
 ## Source and interpretation
 
-Source report: https://www.cdc.gov/fluview/surveillance/2026-week-38.html
+Current report entrypoint: https://www.cdc.gov/fluview/surveillance/index.html
+
+**Downloads are not pinned to a report-page URL.** Laboratory seasons come from live backend metadata. The map uses the latest week with activity records in the live ILI response. The corresponding week-specific report URLs are generated from the returned year/week and recorded in `data/manifest.json` and `data/ili_latest.json`; these are reference links, not ingestion inputs. A report link can lag backend publication and is not a guaranteed archive of the downloaded values.
+
+The map embedded in a dated CDC report can include `mmwrid` and `seasonid` query parameters that pin it to that report's week. Our map does not reuse those fixed parameters. It updates automatically as CDC publishes new weeks and seasons.
 
 Embedded chart: https://gis.cdc.gov/grasp/fluview/FluPortalDashboardWidget_CL.html
 
@@ -45,3 +52,9 @@ Counts are specimens, not unique patients or population incidence. Overall, A an
 Seasons are aligned by CDC surveillance week: 40 through 52, a dedicated week-53 slot, then 1 through 39. The visible axes show approximate months, October through September, while retaining that weekly alignment. Month ticks are approximate because calendar dates differ between seasons. For 52-week years, lines connect directly from week 52 to week 1 across the unused week-53 slot. Actual missing observations remain gaps, not zeros or interpolated observations. The latest comparison uses the same surveillance week in both seasons. Week-ending dates use the MMWR Sunday–Saturday convention, with week 1 containing January 4.
 
 The report embeds a live chart without an archive-date parameter. A current download need not reproduce the values originally shown on an older report. Refresh entire seasons to capture revisions, and retain snapshots to preserve each retrieval. The plotted retrieval date identifies the source snapshot, not the report publication date.
+
+## ILI activity map
+
+`fetch_map.py` reads `https://gis.cdc.gov/FluView1/Phase1IniP`, the public data source used by the CDC ILI widget. It joins activity records to CDC jurisdiction, week, season, and intensity metadata, validates duplicate jurisdictions and activity ranges, and archives the raw response. `plot_map.py` uses the returned colors and activity categories directly. It fails if a reporting jurisdiction has no map geometry, rather than silently omitting it. Boundaries are a locally stored copy of CDC's inset TopoJSON (see `assets/SOURCE.md`).
+
+The map is a static state/jurisdiction view, including New York City and available territories; CBSA maps and week playback are not included. White represents insufficient data or a geography absent from the latest response. ILI measures outpatient visits for fever plus cough or sore throat, not laboratory-confirmed influenza. Other respiratory pathogens can contribute; the activity level does not measure the geographic spread of influenza. See [CDC surveillance methods](https://www.cdc.gov/fluview/overview/index.html).
