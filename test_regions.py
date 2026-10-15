@@ -10,10 +10,24 @@ from unittest.mock import patch
 import numpy as np
 from fetch import COLUMNS
 from fetch_regions import abbreviations, request_payload
-from plot_regions import regional_rows
+from plot_regions import regional_rows, comparison_week
 
 
 class RegionTests(unittest.TestCase):
+    def test_comparison_matches_week_number_across_53_week_year(self):
+        dates = [date(2025, 9, 27), date(2026, 10, 3)]
+        manifest = {'weeks': [
+            {'year': 2025, 'weeknumber': 39, 'weekend': '2025-09-27'},
+            {'year': 2026, 'weeknumber': 39, 'weekend': '2026-10-03'}]}
+        self.assertEqual(comparison_week(dates, manifest), (39, 0))
+
+    def test_no_equivalent_week_is_not_replaced_by_nearby_week(self):
+        dates = [date(2024, 12, 28), date(2026, 1, 3)]
+        manifest = {'weeks': [
+            {'year': 2024, 'weeknumber': 52, 'weekend': '2024-12-28'},
+            {'year': 2025, 'weeknumber': 53, 'weekend': '2026-01-03'}]}
+        self.assertEqual(comparison_week(dates, manifest), (53, None))
+
     def test_city_reporting_areas_use_parent_state(self):
         self.assertEqual(abbreviations('New Jersey, New York, New York City, Puerto Rico, Virgin Islands'),
                          ['NJ', 'NY', 'PR', 'VI'])

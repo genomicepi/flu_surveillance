@@ -48,6 +48,41 @@ def regional_rows(entry, manifest):
                    for col in ['TOTAL A', 'TOTAL B', 'PERCENT POSITIVE', 'PERCENT A', 'PERCENT B']}
 
 
+def comparison_week(dates, manifest):
+    """Match the reported surveillance week in the preceding year, not 365 days."""
+    latest = next(w for w in manifest['weeks'] if w['weekend'] == dates[-1].isoformat())
+    prior = next((w for w in manifest['weeks']
+                  if w['year'] == latest['year'] - 1 and w['weeknumber'] == latest['weeknumber']), None)
+    prior_date = date.fromisoformat(prior['weekend']) if prior else None
+    index = dates.index(prior_date) if prior_date in dates else None
+    return latest['weeknumber'], index
+
+
+def annotate_comparison(ax, dates, values, week, prior_index, percent=False):
+    for index, label, position, align, color in [
+        (prior_index, 'Same week last year', (.02, .52), 'left', '#7951A0'),
+        (len(dates) - 1, 'Latest reported week', (.98, .34), 'right', '#263A48'),
+    ]:
+        if index is None:
+            ax.text(.02, .52, f'Same week last year\nWeek {week}: unavailable',
+                    transform=ax.transAxes, fontsize=10, color=color)
+            continue
+        value = values[index]
+        if label == 'Latest reported week' and np.isfinite(value) and value > ax.get_ylim()[1] * .25:
+            position = (.98, .82)
+        formatted = (f'{value:.2f}%' if percent else f'{value:,.0f} positive specimens') if np.isfinite(value) else 'No reported value'
+        text = f'{label}\nWeek {week} · {dates[index]:%b %d, %Y}\n{formatted}'
+        if not np.isfinite(value):
+            ax.text(*position, text, transform=ax.transAxes, ha=align, fontsize=10, color=color)
+            continue
+        ax.scatter([dates[index]], [value], s=42, color=color, edgecolor='white', linewidth=.8, zorder=6)
+        ax.annotate(text, xy=(mdates.date2num(dates[index]), value),
+                    xytext=position, textcoords='axes fraction', ha=align, va='center',
+                    fontsize=10, color=color, linespacing=1.5,
+                    bbox={'boxstyle': 'round,pad=.4', 'fc': 'white', 'ec': '#DDE2E7', 'alpha': .97},
+                    arrowprops={'arrowstyle': '-|>', 'color': color, 'lw': 1.3}, zorder=7)
+
+
 def main():
     manifest = json.loads((ROOT / 'data/regions/manifest.json').read_text())
     out = ROOT / 'plots/hhs_regions'
@@ -57,45 +92,38 @@ def main():
                          'xtick.color': '#596673', 'ytick.color': '#596673'})
     for entry in manifest['regions']:
         dates, values = regional_rows(entry, manifest)
-        fig, axes = plt.subplots(2, 1, figsize=(13, 8.5), sharex=True)
-        fig.subplots_adjust(left=.09, right=.96, top=.78, bottom=.23, hspace=.40)
+        fig, axes = plt.subplots(1, 2, figsize=(14, 8.5), sharex=True)
+        fig.subplots_adjust(left=.07, right=.97, top=.71, bottom=.23, wspace=.25)
         fig.suptitle(f"HHS Region {entry['number']} | {', '.join(entry['abbreviations'])}",
-                     x=.09, y=.96, ha='left', fontsize=23, weight='bold')
-        fig.text(.09, .885, 'Influenza positive tests reported by clinical laboratories', fontsize=15)
-        fig.text(.09, .855, f"{manifest['seasons'][0]} season with prior-season context · "
+                     x=.07, y=.96, ha='left', fontsize=23, weight='bold')
+        fig.text(.07, .885, 'Influenza positive tests reported by clinical laboratories', fontsize=15)
+        fig.text(.07, .855, f"{manifest['seasons'][0]} season with prior-season context · "
                  f"{dates[0]:%b %d, %Y} – {dates[-1]:%b %d, %Y}", fontsize=11, color='#596673')
         axes[0].bar(dates, values['TOTAL A'], width=5.8, color=BLUE, label='Influenza A')
         axes[0].bar(dates, values['TOTAL B'], bottom=values['TOTAL A'],
                     width=5.8, color=ORANGE, label='Influenza B')
         style(axes[0], 'Positive specimens')
         axes[0].yaxis.set_major_formatter(FuncFormatter(lambda value, _: f'{value:,.0f}'))
-        axes[0].set_title('Positive test counts', loc='left', fontsize=12, weight='bold')
-        axes[0].legend(frameon=False, ncol=2, loc='upper right')
+        axes[0].set_title('Positive test counts', loc='left', fontsize=13, weight='bold', pad=52)
+        axes[0].legend(frameon=False, ncol=2, loc='lower left', bbox_to_anchor=(0, 1.015), fontsize=10)
         for col, label, color in [('PERCENT POSITIVE', 'All influenza (A + B)', '#263A48'),
                                    ('PERCENT A', 'Influenza A', BLUE), ('PERCENT B', 'Influenza B', ORANGE)]:
-            axes[1].plot(dates, values[col], color=color, lw=2.1, label=label)
+            axes[1].plot(dates, values[col], color=color, lw=2.1, label=label, marker='o', markersize=2.5)
         style(axes[1], 'Specimens positive (%)')
-        axes[1].set_title('Test positivity', loc='left', fontsize=12, weight='bold')
-        axes[1].legend(frameon=False, ncol=3, loc='upper right', fontsize=10)
-        axes[1].xaxis.set_major_locator(mdates.MonthLocator(interval=2))
-        axes[1].xaxis.set_major_formatter(mdates.DateFormatter('%b\n%Y'))
-        axes[1].set_xlabel('Week ending', labelpad=10)
-        axes[1].set_xlim(dates[0] - timedelta(days=5), dates[-1] + timedelta(days=5))
-        # Season boundary comes from CDC's week metadata, not an assumed October date.
-        boundary = next(date.fromisoformat(w['weekstart']) for w in manifest['weeks']
-                        if w['year'] == int(manifest['seasons'][0][:4]) and w['weeknumber'] == 40)
+        axes[1].set_title('Test positivity', loc='left', fontsize=13, weight='bold', pad=52)
+        axes[1].legend(frameon=False, ncol=3, loc='lower left', bbox_to_anchor=(0, 1.015), fontsize=8, columnspacing=1)
+        week, prior_index = comparison_week(dates, manifest)
         for ax in axes:
-            if dates[0] < boundary < dates[-1]:
-                ax.axvline(boundary, color='#9AA5B1', linestyle=':', lw=1)
-            ax.axvline(dates[-1], color='#9AA5B1', linestyle=':', lw=1)
-            ax.margins(y=.20)
-        if dates[0] < boundary < dates[-1]:
-            axes[0].text(boundary + timedelta(days=5), .98, f"{manifest['seasons'][0]} begins",
-                         transform=axes[0].get_xaxis_transform(), va='top', fontsize=9, color='#596673')
+            ax.xaxis.set_major_locator(mdates.MonthLocator(interval=3))
+            ax.xaxis.set_major_formatter(mdates.DateFormatter('%b\n%Y'))
+            ax.set_xlabel('Week ending', labelpad=10)
+            ax.set_xlim(dates[0] - timedelta(days=7), dates[-1] + timedelta(days=10))
+        annotate_comparison(axes[0], dates, values['TOTAL A'] + values['TOTAL B'], week, prior_index)
+        annotate_comparison(axes[1], dates, values['PERCENT POSITIVE'], week, prior_index, percent=True)
         stamp = manifest['retrieved_at_utc']
-        fig.text(.09, .025, f"Source: CDC FluView · HHS regional clinical laboratories · Retrieved {stamp[:4]}-{stamp[4:6]}-{stamp[6:8]}\n"
+        fig.text(.07, .025, f"Source: CDC FluView · HHS regional clinical laboratories · Retrieved {stamp[:4]}-{stamp[4:6]}-{stamp[6:8]}\n"
                  'Counts are specimens, not unique people. All positivity percentages use total tested specimens.\n'
-                 'Titles list CDC FluView region members; city reporting areas are included under their state. Missing observations remain gaps.',
+                 'Callouts compare the same surveillance week in each year: total A + B specimens (left), overall positivity (right). Missing observations remain gaps.',
                  fontsize=9, color='#596673', linespacing=1.6, va='bottom')
         for ext in ['png', 'svg']:
             fig.savefig(out / f"hhs_region_{entry['number']:02}.{ext}", dpi=180, facecolor='white')
