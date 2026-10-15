@@ -4,13 +4,20 @@ National clinical-laboratory influenza data from the CDC FluView chart, plus the
 
 ## Run
 
+Python 3.12 is used by the automated workflow. Clone the repository and install dependencies in a virtual environment:
+
 ```sh
-cd /Users/kja/Documents/GitHub/flu_surveillance
-python3 -m pip install -r requirements.txt
-python3 update.py
+git clone https://github.com/genomicepi/flu_surveillance.git
+cd flu_surveillance
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python update.py
 ```
 
-`fetch.py` without arguments retrieves the latest two enabled seasons from CDC metadata. Plot season arguments default to the initial review pair, 2025–26 and 2024–25; change them when the season rolls over. The GitHub Actions workflow refreshes daily at 18:23 UTC and can also be run manually.
+On Windows PowerShell, activate the environment with `.venv\Scripts\Activate.ps1`.
+
+`fetch.py` without arguments retrieves the latest two enabled seasons from CDC metadata. `update.py` automatically passes the downloaded seasons to the plotting script. When running `plot.py` separately, use `--current` and `--previous` to select seasons; its defaults are 2025–26 and 2024–25. The GitHub Actions workflow refreshes daily at 18:23 UTC and can also be run manually.
 
 The purple “Calendar week” annotation appears only when the `--as-of` date falls within the selected `--current` season (CDC weeks 40 through 39). It uses the same surveillance-week grid as the data and identifies calendar timing, not a reported value. Historical-season plots omit it. By default the date is today in America/Los_Angeles; `--as-of YYYY-MM-DD` supports reproducible renders.
 
@@ -30,7 +37,6 @@ Each CDC response logs its HTTP status, method, and URL. HTTP errors also log a 
 - `plots/01_season_overview.{png,svg}`: positivity lines and a separate stacked specimen-count panel.
 - `plots/02_year_over_year.{png,svg}`: positivity comparison and the latest equivalent-week difference in percentage points.
 - `plots/03_year_over_year_by_type.{png,svg}`: A and B positivity comparisons with a shared scale.
-
 - `data/ili_latest.{json,csv}`: latest ILI activity levels, week, and jurisdiction data; JSON includes source metadata, colors, and report URL.
 - `data/ili_snapshots/TIMESTAMP/`: archived raw CDC ILI response and normalized map data.
 - `plots/04_ili_activity_map.{png,svg}`: latest state/jurisdiction ILI activity map using CDC colors and inset boundaries.
@@ -51,7 +57,7 @@ Counts are specimens, not unique patients or population incidence. Overall, A an
 
 Seasons are aligned by CDC surveillance week: 40 through 52, a dedicated week-53 slot, then 1 through 39. The visible axes show approximate months, October through September, while retaining that weekly alignment. Month ticks are approximate because calendar dates differ between seasons. For 52-week years, lines connect directly from week 52 to week 1 across the unused week-53 slot. Actual missing observations remain gaps, not zeros or interpolated observations. The latest comparison uses the same surveillance week in both seasons. Week-ending dates use the MMWR Sunday–Saturday convention, with week 1 containing January 4.
 
-The report embeds a live chart without an archive-date parameter. A current download need not reproduce the values originally shown on an older report. Refresh entire seasons to capture revisions, and retain snapshots to preserve each retrieval. The plotted retrieval date identifies the source snapshot, not the report publication date.
+The laboratory chart embedded in the report uses a live backend without an archive-date parameter. A current laboratory-data download need not reproduce the values originally shown on an older report. Refresh entire seasons to capture revisions, and retain snapshots to preserve each retrieval. The plotted retrieval date identifies the source snapshot, not the report publication date.
 
 ## ILI activity map
 
