@@ -1,0 +1,70 @@
+{
+  "retrieved_at_utc": "20261015T174641726735Z",
+  "endpoint": "https://gis.cdc.gov/flu2/PostPhase02StackedColumnChartDataDownload",
+  "geography": "National",
+  "laboratories": "Clinical",
+  "seasons": [
+    {
+      "label": "2025-26",
+      "rows": 53,
+      "request": {
+        "AppVersion": "Public",
+        "DatasourceDT": [
+          {
+            "ID": 0,
+            "Name": "WHO_NREVSS"
+          }
+        ],
+        "RegionTypeId": 3,
+        "SubRegionsDT": [
+          {
+            "ID": 0,
+            "Name": ""
+          }
+        ],
+        "SeasonsDT": [
+          {
+            "ID": 65,
+            "Name": "65"
+          }
+        ],
+        "LabType": 2
+      },
+      "last_observation": [
+        2026,
+        39
+      ]
+    },
+    {
+      "label": "2024-25",
+      "rows": 52,
+      "request": {
+        "AppVersion": "Public",
+        "DatasourceDT": [
+          {
+            "ID": 0,
+            "Name": "WHO_NREVSS"
+          }
+        ],
+        "RegionTypeId": 3,
+        "SubRegionsDT": [
+          {
+            "ID": 0,
+            "Name": ""
+          }
+        ],
+        "SeasonsDT": [
+          {
+            "ID": 64,
+            "Name": "64"
+          }
+        ],
+        "LabType": 2
+      },
+      "last_observation": [
+        2025,
+        39
+      ]
+    }
+  ]
+}
