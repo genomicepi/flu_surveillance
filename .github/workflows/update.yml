@@ -1,0 +1,62 @@
+name: Update flu surveillance
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 18 * * *'
+  push:
+    branches: [main]
+    paths:
+      - '*.py'
+      - requirements.txt
+      - .github/workflows/update.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: flu-surveillance-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      MPLBACKEND: Agg
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.0.0
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Fetch CDC data and render plots
+        shell: bash
+        run: |
+          set -o pipefail
+          mkdir -p logs
+          python -u update.py 2>&1 | tee logs/update.log
+      - name: Save diagnostics and outputs
+        if: always()
+        uses: actions/upload-artifact@v7.0.2
+        with:
+          name: flu-surveillance-${{ github.run_id }}
+          path: |
+            logs/
+            data/
+            plots/
+          retention-days: 30
+      - name: Commit refreshed data and plots
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data plots
+          if git diff --cached --quiet; then
+            echo 'No changed outputs.'
+          else
+            git commit -m 'Refresh CDC flu surveillance data and plots'
+            git push
+          fi
