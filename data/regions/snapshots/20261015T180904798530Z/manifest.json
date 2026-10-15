@@ -1,0 +1,1976 @@
+{
+  "retrieved_at_utc": "20261015T180904798530Z",
+  "endpoint": "https://gis.cdc.gov/flu2/PostPhase02StackedColumnChartDataDownload",
+  "seasons": [
+    "2025-26",
+    "2024-25"
+  ],
+  "weeks": [
+    {
+      "mmwrid": 3327,
+      "weekend": "2025-10-04",
+      "weekendlabel": "Oct 04, 2025",
+      "weekendlabel2": "Oct-04-2025",
+      "weeknumber": 40,
+      "weekstart": "2025-09-28",
+      "year": 2025,
+      "yearweek": 202540,
+      "seasonid": 65,
+      "label": "40"
+    },
+    {
+      "mmwrid": 3328,
+      "weekend": "2025-10-11",
+      "weekendlabel": "Oct 11, 2025",
+      "weekendlabel2": "Oct-11-2025",
+      "weeknumber": 41,
+      "weekstart": "2025-10-05",
+      "year": 2025,
+      "yearweek": 202541,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3329,
+      "weekend": "2025-10-18",
+      "weekendlabel": "Oct 18, 2025",
+      "weekendlabel2": "Oct-18-2025",
+      "weeknumber": 42,
+      "weekstart": "2025-10-12",
+      "year": 2025,
+      "yearweek": 202542,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3330,
+      "weekend": "2025-10-25",
+      "weekendlabel": "Oct 25, 2025",
+      "weekendlabel2": "Oct-25-2025",
+      "weeknumber": 43,
+      "weekstart": "2025-10-19",
+      "year": 2025,
+      "yearweek": 202543,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3331,
+      "weekend": "2025-11-01",
+      "weekendlabel": "Nov 01, 2025",
+      "weekendlabel2": "Nov-01-2025",
+      "weeknumber": 44,
+      "weekstart": "2025-10-26",
+      "year": 2025,
+      "yearweek": 202544,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3332,
+      "weekend": "2025-11-08",
+      "weekendlabel": "Nov 08, 2025",
+      "weekendlabel2": "Nov-08-2025",
+      "weeknumber": 45,
+      "weekstart": "2025-11-02",
+      "year": 2025,
+      "yearweek": 202545,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3333,
+      "weekend": "2025-11-15",
+      "weekendlabel": "Nov 15, 2025",
+      "weekendlabel2": "Nov-15-2025",
+      "weeknumber": 46,
+      "weekstart": "2025-11-09",
+      "year": 2025,
+      "yearweek": 202546,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3334,
+      "weekend": "2025-11-22",
+      "weekendlabel": "Nov 22, 2025",
+      "weekendlabel2": "Nov-22-2025",
+      "weeknumber": 47,
+      "weekstart": "2025-11-16",
+      "year": 2025,
+      "yearweek": 202547,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3335,
+      "weekend": "2025-11-29",
+      "weekendlabel": "Nov 29, 2025",
+      "weekendlabel2": "Nov-29-2025",
+      "weeknumber": 48,
+      "weekstart": "2025-11-23",
+      "year": 2025,
+      "yearweek": 202548,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3336,
+      "weekend": "2025-12-06",
+      "weekendlabel": "Dec 06, 2025",
+      "weekendlabel2": "Dec-06-2025",
+      "weeknumber": 49,
+      "weekstart": "2025-11-30",
+      "year": 2025,
+      "yearweek": 202549,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3337,
+      "weekend": "2025-12-13",
+      "weekendlabel": "Dec 13, 2025",
+      "weekendlabel2": "Dec-13-2025",
+      "weeknumber": 50,
+      "weekstart": "2025-12-07",
+      "year": 2025,
+      "yearweek": 202550,
+      "seasonid": 65,
+      "label": "50"
+    },
+    {
+      "mmwrid": 3338,
+      "weekend": "2025-12-20",
+      "weekendlabel": "Dec 20, 2025",
+      "weekendlabel2": "Dec-20-2025",
+      "weeknumber": 51,
+      "weekstart": "2025-12-14",
+      "year": 2025,
+      "yearweek": 202551,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3339,
+      "weekend": "2025-12-27",
+      "weekendlabel": "Dec 27, 2025",
+      "weekendlabel2": "Dec-27-2025",
+      "weeknumber": 52,
+      "weekstart": "2025-12-21",
+      "year": 2025,
+      "yearweek": 202552,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3340,
+      "weekend": "2026-01-03",
+      "weekendlabel": "Jan 03, 2026",
+      "weekendlabel2": "Jan-03-2026",
+      "weeknumber": 53,
+      "weekstart": "2025-12-28",
+      "year": 2025,
+      "yearweek": 202553,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3341,
+      "weekend": "2026-01-10",
+      "weekendlabel": "Jan 10, 2026",
+      "weekendlabel2": "Jan-10-2026",
+      "weeknumber": 1,
+      "weekstart": "2026-01-04",
+      "year": 2026,
+      "yearweek": 202601,
+      "seasonid": 65,
+      "label": "1"
+    },
+    {
+      "mmwrid": 3342,
+      "weekend": "2026-01-17",
+      "weekendlabel": "Jan 17, 2026",
+      "weekendlabel2": "Jan-17-2026",
+      "weeknumber": 2,
+      "weekstart": "2026-01-11",
+      "year": 2026,
+      "yearweek": 202602,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3343,
+      "weekend": "2026-01-24",
+      "weekendlabel": "Jan 24, 2026",
+      "weekendlabel2": "Jan-24-2026",
+      "weeknumber": 3,
+      "weekstart": "2026-01-18",
+      "year": 2026,
+      "yearweek": 202603,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3344,
+      "weekend": "2026-01-31",
+      "weekendlabel": "Jan 31, 2026",
+      "weekendlabel2": "Jan-31-2026",
+      "weeknumber": 4,
+      "weekstart": "2026-01-25",
+      "year": 2026,
+      "yearweek": 202604,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3345,
+      "weekend": "2026-02-07",
+      "weekendlabel": "Feb 07, 2026",
+      "weekendlabel2": "Feb-07-2026",
+      "weeknumber": 5,
+      "weekstart": "2026-02-01",
+      "year": 2026,
+      "yearweek": 202605,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3346,
+      "weekend": "2026-02-14",
+      "weekendlabel": "Feb 14, 2026",
+      "weekendlabel2": "Feb-14-2026",
+      "weeknumber": 6,
+      "weekstart": "2026-02-08",
+      "year": 2026,
+      "yearweek": 202606,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3347,
+      "weekend": "2026-02-21",
+      "weekendlabel": "Feb 21, 2026",
+      "weekendlabel2": "Feb-21-2026",
+      "weeknumber": 7,
+      "weekstart": "2026-02-15",
+      "year": 2026,
+      "yearweek": 202607,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3348,
+      "weekend": "2026-02-28",
+      "weekendlabel": "Feb 28, 2026",
+      "weekendlabel2": "Feb-28-2026",
+      "weeknumber": 8,
+      "weekstart": "2026-02-22",
+      "year": 2026,
+      "yearweek": 202608,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3349,
+      "weekend": "2026-03-07",
+      "weekendlabel": "Mar 07, 2026",
+      "weekendlabel2": "Mar-07-2026",
+      "weeknumber": 9,
+      "weekstart": "2026-03-01",
+      "year": 2026,
+      "yearweek": 202609,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3350,
+      "weekend": "2026-03-14",
+      "weekendlabel": "Mar 14, 2026",
+      "weekendlabel2": "Mar-14-2026",
+      "weeknumber": 10,
+      "weekstart": "2026-03-08",
+      "year": 2026,
+      "yearweek": 202610,
+      "seasonid": 65,
+      "label": "10"
+    },
+    {
+      "mmwrid": 3351,
+      "weekend": "2026-03-21",
+      "weekendlabel": "Mar 21, 2026",
+      "weekendlabel2": "Mar-21-2026",
+      "weeknumber": 11,
+      "weekstart": "2026-03-15",
+      "year": 2026,
+      "yearweek": 202611,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3352,
+      "weekend": "2026-03-28",
+      "weekendlabel": "Mar 28, 2026",
+      "weekendlabel2": "Mar-28-2026",
+      "weeknumber": 12,
+      "weekstart": "2026-03-22",
+      "year": 2026,
+      "yearweek": 202612,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3353,
+      "weekend": "2026-04-04",
+      "weekendlabel": "Apr 04, 2026",
+      "weekendlabel2": "Apr-04-2026",
+      "weeknumber": 13,
+      "weekstart": "2026-03-29",
+      "year": 2026,
+      "yearweek": 202613,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3354,
+      "weekend": "2026-04-11",
+      "weekendlabel": "Apr 11, 2026",
+      "weekendlabel2": "Apr-11-2026",
+      "weeknumber": 14,
+      "weekstart": "2026-04-05",
+      "year": 2026,
+      "yearweek": 202614,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3355,
+      "weekend": "2026-04-18",
+      "weekendlabel": "Apr 18, 2026",
+      "weekendlabel2": "Apr-18-2026",
+      "weeknumber": 15,
+      "weekstart": "2026-04-12",
+      "year": 2026,
+      "yearweek": 202615,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3356,
+      "weekend": "2026-04-25",
+      "weekendlabel": "Apr 25, 2026",
+      "weekendlabel2": "Apr-25-2026",
+      "weeknumber": 16,
+      "weekstart": "2026-04-19",
+      "year": 2026,
+      "yearweek": 202616,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3357,
+      "weekend": "2026-05-02",
+      "weekendlabel": "May 02, 2026",
+      "weekendlabel2": "May-02-2026",
+      "weeknumber": 17,
+      "weekstart": "2026-04-26",
+      "year": 2026,
+      "yearweek": 202617,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3358,
+      "weekend": "2026-05-09",
+      "weekendlabel": "May 09, 2026",
+      "weekendlabel2": "May-09-2026",
+      "weeknumber": 18,
+      "weekstart": "2026-05-03",
+      "year": 2026,
+      "yearweek": 202618,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3359,
+      "weekend": "2026-05-16",
+      "weekendlabel": "May 16, 2026",
+      "weekendlabel2": "May-16-2026",
+      "weeknumber": 19,
+      "weekstart": "2026-05-10",
+      "year": 2026,
+      "yearweek": 202619,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3360,
+      "weekend": "2026-05-23",
+      "weekendlabel": "May 23, 2026",
+      "weekendlabel2": "May-23-2026",
+      "weeknumber": 20,
+      "weekstart": "2026-05-17",
+      "year": 2026,
+      "yearweek": 202620,
+      "seasonid": 65,
+      "label": "20"
+    },
+    {
+      "mmwrid": 3361,
+      "weekend": "2026-05-30",
+      "weekendlabel": "May 30, 2026",
+      "weekendlabel2": "May-30-2026",
+      "weeknumber": 21,
+      "weekstart": "2026-05-24",
+      "year": 2026,
+      "yearweek": 202621,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3362,
+      "weekend": "2026-06-06",
+      "weekendlabel": "Jun 06, 2026",
+      "weekendlabel2": "Jun-06-2026",
+      "weeknumber": 22,
+      "weekstart": "2026-05-31",
+      "year": 2026,
+      "yearweek": 202622,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3363,
+      "weekend": "2026-06-13",
+      "weekendlabel": "Jun 13, 2026",
+      "weekendlabel2": "Jun-13-2026",
+      "weeknumber": 23,
+      "weekstart": "2026-06-07",
+      "year": 2026,
+      "yearweek": 202623,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3364,
+      "weekend": "2026-06-20",
+      "weekendlabel": "Jun 20, 2026",
+      "weekendlabel2": "Jun-20-2026",
+      "weeknumber": 24,
+      "weekstart": "2026-06-14",
+      "year": 2026,
+      "yearweek": 202624,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3365,
+      "weekend": "2026-06-27",
+      "weekendlabel": "Jun 27, 2026",
+      "weekendlabel2": "Jun-27-2026",
+      "weeknumber": 25,
+      "weekstart": "2026-06-21",
+      "year": 2026,
+      "yearweek": 202625,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3366,
+      "weekend": "2026-07-04",
+      "weekendlabel": "Jul 04, 2026",
+      "weekendlabel2": "Jul-04-2026",
+      "weeknumber": 26,
+      "weekstart": "2026-06-28",
+      "year": 2026,
+      "yearweek": 202626,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3367,
+      "weekend": "2026-07-11",
+      "weekendlabel": "Jul 11, 2026",
+      "weekendlabel2": "Jul-11-2026",
+      "weeknumber": 27,
+      "weekstart": "2026-07-05",
+      "year": 2026,
+      "yearweek": 202627,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3368,
+      "weekend": "2026-07-18",
+      "weekendlabel": "Jul 18, 2026",
+      "weekendlabel2": "Jul-18-2026",
+      "weeknumber": 28,
+      "weekstart": "2026-07-12",
+      "year": 2026,
+      "yearweek": 202628,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3369,
+      "weekend": "2026-07-25",
+      "weekendlabel": "Jul 25, 2026",
+      "weekendlabel2": "Jul-25-2026",
+      "weeknumber": 29,
+      "weekstart": "2026-07-19",
+      "year": 2026,
+      "yearweek": 202629,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3370,
+      "weekend": "2026-08-01",
+      "weekendlabel": "Aug 01, 2026",
+      "weekendlabel2": "Aug-01-2026",
+      "weeknumber": 30,
+      "weekstart": "2026-07-26",
+      "year": 2026,
+      "yearweek": 202630,
+      "seasonid": 65,
+      "label": "30"
+    },
+    {
+      "mmwrid": 3371,
+      "weekend": "2026-08-08",
+      "weekendlabel": "Aug 08, 2026",
+      "weekendlabel2": "Aug-08-2026",
+      "weeknumber": 31,
+      "weekstart": "2026-08-02",
+      "year": 2026,
+      "yearweek": 202631,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3372,
+      "weekend": "2026-08-15",
+      "weekendlabel": "Aug 15, 2026",
+      "weekendlabel2": "Aug-15-2026",
+      "weeknumber": 32,
+      "weekstart": "2026-08-09",
+      "year": 2026,
+      "yearweek": 202632,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3373,
+      "weekend": "2026-08-22",
+      "weekendlabel": "Aug 22, 2026",
+      "weekendlabel2": "Aug-22-2026",
+      "weeknumber": 33,
+      "weekstart": "2026-08-16",
+      "year": 2026,
+      "yearweek": 202633,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3374,
+      "weekend": "2026-08-29",
+      "weekendlabel": "Aug 29, 2026",
+      "weekendlabel2": "Aug-29-2026",
+      "weeknumber": 34,
+      "weekstart": "2026-08-23",
+      "year": 2026,
+      "yearweek": 202634,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3375,
+      "weekend": "2026-09-05",
+      "weekendlabel": "Sep 05, 2026",
+      "weekendlabel2": "Sep-05-2026",
+      "weeknumber": 35,
+      "weekstart": "2026-08-30",
+      "year": 2026,
+      "yearweek": 202635,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3376,
+      "weekend": "2026-09-12",
+      "weekendlabel": "Sep 12, 2026",
+      "weekendlabel2": "Sep-12-2026",
+      "weeknumber": 36,
+      "weekstart": "2026-09-06",
+      "year": 2026,
+      "yearweek": 202636,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3377,
+      "weekend": "2026-09-19",
+      "weekendlabel": "Sep 19, 2026",
+      "weekendlabel2": "Sep-19-2026",
+      "weeknumber": 37,
+      "weekstart": "2026-09-13",
+      "year": 2026,
+      "yearweek": 202637,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3378,
+      "weekend": "2026-09-26",
+      "weekendlabel": "Sep 26, 2026",
+      "weekendlabel2": "Sep-26-2026",
+      "weeknumber": 38,
+      "weekstart": "2026-09-20",
+      "year": 2026,
+      "yearweek": 202638,
+      "seasonid": 65,
+      "label": ""
+    },
+    {
+      "mmwrid": 3379,
+      "weekend": "2026-10-03",
+      "weekendlabel": "Oct 03, 2026",
+      "weekendlabel2": "Oct-03-2026",
+      "weeknumber": 39,
+      "weekstart": "2026-09-27",
+      "year": 2026,
+      "yearweek": 202639,
+      "seasonid": 65,
+      "label": "39"
+    },
+    {
+      "mmwrid": 3275,
+      "weekend": "2024-10-05",
+      "weekendlabel": "Oct 05, 2024",
+      "weekendlabel2": "Oct-05-2024",
+      "weeknumber": 40,
+      "weekstart": "2024-09-29",
+      "year": 2024,
+      "yearweek": 202440,
+      "seasonid": 64,
+      "label": "40"
+    },
+    {
+      "mmwrid": 3276,
+      "weekend": "2024-10-12",
+      "weekendlabel": "Oct 12, 2024",
+      "weekendlabel2": "Oct-12-2024",
+      "weeknumber": 41,
+      "weekstart": "2024-10-06",
+      "year": 2024,
+      "yearweek": 202441,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3277,
+      "weekend": "2024-10-19",
+      "weekendlabel": "Oct 19, 2024",
+      "weekendlabel2": "Oct-19-2024",
+      "weeknumber": 42,
+      "weekstart": "2024-10-13",
+      "year": 2024,
+      "yearweek": 202442,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3278,
+      "weekend": "2024-10-26",
+      "weekendlabel": "Oct 26, 2024",
+      "weekendlabel2": "Oct-26-2024",
+      "weeknumber": 43,
+      "weekstart": "2024-10-20",
+      "year": 2024,
+      "yearweek": 202443,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3279,
+      "weekend": "2024-11-02",
+      "weekendlabel": "Nov 02, 2024",
+      "weekendlabel2": "Nov-02-2024",
+      "weeknumber": 44,
+      "weekstart": "2024-10-27",
+      "year": 2024,
+      "yearweek": 202444,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3280,
+      "weekend": "2024-11-09",
+      "weekendlabel": "Nov 09, 2024",
+      "weekendlabel2": "Nov-09-2024",
+      "weeknumber": 45,
+      "weekstart": "2024-11-03",
+      "year": 2024,
+      "yearweek": 202445,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3281,
+      "weekend": "2024-11-16",
+      "weekendlabel": "Nov 16, 2024",
+      "weekendlabel2": "Nov-16-2024",
+      "weeknumber": 46,
+      "weekstart": "2024-11-10",
+      "year": 2024,
+      "yearweek": 202446,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3282,
+      "weekend": "2024-11-23",
+      "weekendlabel": "Nov 23, 2024",
+      "weekendlabel2": "Nov-23-2024",
+      "weeknumber": 47,
+      "weekstart": "2024-11-17",
+      "year": 2024,
+      "yearweek": 202447,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3283,
+      "weekend": "2024-11-30",
+      "weekendlabel": "Nov 30, 2024",
+      "weekendlabel2": "Nov-30-2024",
+      "weeknumber": 48,
+      "weekstart": "2024-11-24",
+      "year": 2024,
+      "yearweek": 202448,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3284,
+      "weekend": "2024-12-07",
+      "weekendlabel": "Dec 07, 2024",
+      "weekendlabel2": "Dec-07-2024",
+      "weeknumber": 49,
+      "weekstart": "2024-12-01",
+      "year": 2024,
+      "yearweek": 202449,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3285,
+      "weekend": "2024-12-14",
+      "weekendlabel": "Dec 14, 2024",
+      "weekendlabel2": "Dec-14-2024",
+      "weeknumber": 50,
+      "weekstart": "2024-12-08",
+      "year": 2024,
+      "yearweek": 202450,
+      "seasonid": 64,
+      "label": "50"
+    },
+    {
+      "mmwrid": 3286,
+      "weekend": "2024-12-21",
+      "weekendlabel": "Dec 21, 2024",
+      "weekendlabel2": "Dec-21-2024",
+      "weeknumber": 51,
+      "weekstart": "2024-12-15",
+      "year": 2024,
+      "yearweek": 202451,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3287,
+      "weekend": "2024-12-28",
+      "weekendlabel": "Dec 28, 2024",
+      "weekendlabel2": "Dec-28-2024",
+      "weeknumber": 52,
+      "weekstart": "2024-12-22",
+      "year": 2024,
+      "yearweek": 202452,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3288,
+      "weekend": "2025-01-04",
+      "weekendlabel": "Jan 04, 2025",
+      "weekendlabel2": "Jan-04-2025",
+      "weeknumber": 1,
+      "weekstart": "2024-12-29",
+      "year": 2025,
+      "yearweek": 202501,
+      "seasonid": 64,
+      "label": "1"
+    },
+    {
+      "mmwrid": 3289,
+      "weekend": "2025-01-11",
+      "weekendlabel": "Jan 11, 2025",
+      "weekendlabel2": "Jan-11-2025",
+      "weeknumber": 2,
+      "weekstart": "2025-01-05",
+      "year": 2025,
+      "yearweek": 202502,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3290,
+      "weekend": "2025-01-18",
+      "weekendlabel": "Jan 18, 2025",
+      "weekendlabel2": "Jan-18-2025",
+      "weeknumber": 3,
+      "weekstart": "2025-01-12",
+      "year": 2025,
+      "yearweek": 202503,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3291,
+      "weekend": "2025-01-25",
+      "weekendlabel": "Jan 25, 2025",
+      "weekendlabel2": "Jan-25-2025",
+      "weeknumber": 4,
+      "weekstart": "2025-01-19",
+      "year": 2025,
+      "yearweek": 202504,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3292,
+      "weekend": "2025-02-01",
+      "weekendlabel": "Feb 01, 2025",
+      "weekendlabel2": "Feb-01-2025",
+      "weeknumber": 5,
+      "weekstart": "2025-01-26",
+      "year": 2025,
+      "yearweek": 202505,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3293,
+      "weekend": "2025-02-08",
+      "weekendlabel": "Feb 08, 2025",
+      "weekendlabel2": "Feb-08-2025",
+      "weeknumber": 6,
+      "weekstart": "2025-02-02",
+      "year": 2025,
+      "yearweek": 202506,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3294,
+      "weekend": "2025-02-15",
+      "weekendlabel": "Feb 15, 2025",
+      "weekendlabel2": "Feb-15-2025",
+      "weeknumber": 7,
+      "weekstart": "2025-02-09",
+      "year": 2025,
+      "yearweek": 202507,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3295,
+      "weekend": "2025-02-22",
+      "weekendlabel": "Feb 22, 2025",
+      "weekendlabel2": "Feb-22-2025",
+      "weeknumber": 8,
+      "weekstart": "2025-02-16",
+      "year": 2025,
+      "yearweek": 202508,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3296,
+      "weekend": "2025-03-01",
+      "weekendlabel": "Mar 01, 2025",
+      "weekendlabel2": "Mar-01-2025",
+      "weeknumber": 9,
+      "weekstart": "2025-02-23",
+      "year": 2025,
+      "yearweek": 202509,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3297,
+      "weekend": "2025-03-08",
+      "weekendlabel": "Mar 08, 2025",
+      "weekendlabel2": "Mar-08-2025",
+      "weeknumber": 10,
+      "weekstart": "2025-03-02",
+      "year": 2025,
+      "yearweek": 202510,
+      "seasonid": 64,
+      "label": "10"
+    },
+    {
+      "mmwrid": 3298,
+      "weekend": "2025-03-15",
+      "weekendlabel": "Mar 15, 2025",
+      "weekendlabel2": "Mar-15-2025",
+      "weeknumber": 11,
+      "weekstart": "2025-03-09",
+      "year": 2025,
+      "yearweek": 202511,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3299,
+      "weekend": "2025-03-22",
+      "weekendlabel": "Mar 22, 2025",
+      "weekendlabel2": "Mar-22-2025",
+      "weeknumber": 12,
+      "weekstart": "2025-03-16",
+      "year": 2025,
+      "yearweek": 202512,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3300,
+      "weekend": "2025-03-29",
+      "weekendlabel": "Mar 29, 2025",
+      "weekendlabel2": "Mar-29-2025",
+      "weeknumber": 13,
+      "weekstart": "2025-03-23",
+      "year": 2025,
+      "yearweek": 202513,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3301,
+      "weekend": "2025-04-05",
+      "weekendlabel": "Apr 05, 2025",
+      "weekendlabel2": "Apr-05-2025",
+      "weeknumber": 14,
+      "weekstart": "2025-03-30",
+      "year": 2025,
+      "yearweek": 202514,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3302,
+      "weekend": "2025-04-12",
+      "weekendlabel": "Apr 12, 2025",
+      "weekendlabel2": "Apr-12-2025",
+      "weeknumber": 15,
+      "weekstart": "2025-04-06",
+      "year": 2025,
+      "yearweek": 202515,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3303,
+      "weekend": "2025-04-19",
+      "weekendlabel": "Apr 19, 2025",
+      "weekendlabel2": "Apr-19-2025",
+      "weeknumber": 16,
+      "weekstart": "2025-04-13",
+      "year": 2025,
+      "yearweek": 202516,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3304,
+      "weekend": "2025-04-26",
+      "weekendlabel": "Apr 26, 2025",
+      "weekendlabel2": "Apr-26-2025",
+      "weeknumber": 17,
+      "weekstart": "2025-04-20",
+      "year": 2025,
+      "yearweek": 202517,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3305,
+      "weekend": "2025-05-03",
+      "weekendlabel": "May 03, 2025",
+      "weekendlabel2": "May-03-2025",
+      "weeknumber": 18,
+      "weekstart": "2025-04-27",
+      "year": 2025,
+      "yearweek": 202518,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3306,
+      "weekend": "2025-05-10",
+      "weekendlabel": "May 10, 2025",
+      "weekendlabel2": "May-10-2025",
+      "weeknumber": 19,
+      "weekstart": "2025-05-04",
+      "year": 2025,
+      "yearweek": 202519,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3307,
+      "weekend": "2025-05-17",
+      "weekendlabel": "May 17, 2025",
+      "weekendlabel2": "May-17-2025",
+      "weeknumber": 20,
+      "weekstart": "2025-05-11",
+      "year": 2025,
+      "yearweek": 202520,
+      "seasonid": 64,
+      "label": "20"
+    },
+    {
+      "mmwrid": 3308,
+      "weekend": "2025-05-24",
+      "weekendlabel": "May 24, 2025",
+      "weekendlabel2": "May-24-2025",
+      "weeknumber": 21,
+      "weekstart": "2025-05-18",
+      "year": 2025,
+      "yearweek": 202521,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3309,
+      "weekend": "2025-05-31",
+      "weekendlabel": "May 31, 2025",
+      "weekendlabel2": "May-31-2025",
+      "weeknumber": 22,
+      "weekstart": "2025-05-25",
+      "year": 2025,
+      "yearweek": 202522,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3310,
+      "weekend": "2025-06-07",
+      "weekendlabel": "Jun 07, 2025",
+      "weekendlabel2": "Jun-07-2025",
+      "weeknumber": 23,
+      "weekstart": "2025-06-01",
+      "year": 2025,
+      "yearweek": 202523,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3311,
+      "weekend": "2025-06-14",
+      "weekendlabel": "Jun 14, 2025",
+      "weekendlabel2": "Jun-14-2025",
+      "weeknumber": 24,
+      "weekstart": "2025-06-08",
+      "year": 2025,
+      "yearweek": 202524,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3312,
+      "weekend": "2025-06-21",
+      "weekendlabel": "Jun 21, 2025",
+      "weekendlabel2": "Jun-21-2025",
+      "weeknumber": 25,
+      "weekstart": "2025-06-15",
+      "year": 2025,
+      "yearweek": 202525,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3313,
+      "weekend": "2025-06-28",
+      "weekendlabel": "Jun 28, 2025",
+      "weekendlabel2": "Jun-28-2025",
+      "weeknumber": 26,
+      "weekstart": "2025-06-22",
+      "year": 2025,
+      "yearweek": 202526,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3314,
+      "weekend": "2025-07-05",
+      "weekendlabel": "Jul 05, 2025",
+      "weekendlabel2": "Jul-05-2025",
+      "weeknumber": 27,
+      "weekstart": "2025-06-29",
+      "year": 2025,
+      "yearweek": 202527,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3315,
+      "weekend": "2025-07-12",
+      "weekendlabel": "Jul 12, 2025",
+      "weekendlabel2": "Jul-12-2025",
+      "weeknumber": 28,
+      "weekstart": "2025-07-06",
+      "year": 2025,
+      "yearweek": 202528,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3316,
+      "weekend": "2025-07-19",
+      "weekendlabel": "Jul 19, 2025",
+      "weekendlabel2": "Jul-19-2025",
+      "weeknumber": 29,
+      "weekstart": "2025-07-13",
+      "year": 2025,
+      "yearweek": 202529,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3317,
+      "weekend": "2025-07-26",
+      "weekendlabel": "Jul 26, 2025",
+      "weekendlabel2": "Jul-26-2025",
+      "weeknumber": 30,
+      "weekstart": "2025-07-20",
+      "year": 2025,
+      "yearweek": 202530,
+      "seasonid": 64,
+      "label": "30"
+    },
+    {
+      "mmwrid": 3318,
+      "weekend": "2025-08-02",
+      "weekendlabel": "Aug 02, 2025",
+      "weekendlabel2": "Aug-02-2025",
+      "weeknumber": 31,
+      "weekstart": "2025-07-27",
+      "year": 2025,
+      "yearweek": 202531,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3319,
+      "weekend": "2025-08-09",
+      "weekendlabel": "Aug 09, 2025",
+      "weekendlabel2": "Aug-09-2025",
+      "weeknumber": 32,
+      "weekstart": "2025-08-03",
+      "year": 2025,
+      "yearweek": 202532,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3320,
+      "weekend": "2025-08-16",
+      "weekendlabel": "Aug 16, 2025",
+      "weekendlabel2": "Aug-16-2025",
+      "weeknumber": 33,
+      "weekstart": "2025-08-10",
+      "year": 2025,
+      "yearweek": 202533,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3321,
+      "weekend": "2025-08-23",
+      "weekendlabel": "Aug 23, 2025",
+      "weekendlabel2": "Aug-23-2025",
+      "weeknumber": 34,
+      "weekstart": "2025-08-17",
+      "year": 2025,
+      "yearweek": 202534,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3322,
+      "weekend": "2025-08-30",
+      "weekendlabel": "Aug 30, 2025",
+      "weekendlabel2": "Aug-30-2025",
+      "weeknumber": 35,
+      "weekstart": "2025-08-24",
+      "year": 2025,
+      "yearweek": 202535,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3323,
+      "weekend": "2025-09-06",
+      "weekendlabel": "Sep 06, 2025",
+      "weekendlabel2": "Sep-06-2025",
+      "weeknumber": 36,
+      "weekstart": "2025-08-31",
+      "year": 2025,
+      "yearweek": 202536,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3324,
+      "weekend": "2025-09-13",
+      "weekendlabel": "Sep 13, 2025",
+      "weekendlabel2": "Sep-13-2025",
+      "weeknumber": 37,
+      "weekstart": "2025-09-07",
+      "year": 2025,
+      "yearweek": 202537,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3325,
+      "weekend": "2025-09-20",
+      "weekendlabel": "Sep 20, 2025",
+      "weekendlabel2": "Sep-20-2025",
+      "weeknumber": 38,
+      "weekstart": "2025-09-14",
+      "year": 2025,
+      "yearweek": 202538,
+      "seasonid": 64,
+      "label": ""
+    },
+    {
+      "mmwrid": 3326,
+      "weekend": "2025-09-27",
+      "weekendlabel": "Sep 27, 2025",
+      "weekendlabel2": "Sep-27-2025",
+      "weeknumber": 39,
+      "weekstart": "2025-09-21",
+      "year": 2025,
+      "yearweek": 202539,
+      "seasonid": 64,
+      "label": "39"
+    }
+  ],
+  "regions": [
+    {
+      "number": 1,
+      "name": "Region 1",
+      "members": "Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, Vermont ",
+      "abbreviations": [
+        "CT",
+        "MA",
+        "ME",
+        "NH",
+        "RI",
+        "VT"
+      ],
+      "downloads": [
+        {
+          "season": "2025-26",
+          "file": "clinical_hhs_01_2025-26.csv",
+          "rows": 53,
+          "request": {
+            "AppVersion": "Public",
+            "DatasourceDT": [
+              {
+                "ID": 0,
+                "Name": "WHO_NREVSS"
+              }
+            ],
+            "RegionTypeId": 1,
+            "SubRegionsDT": [
+              {
+                "ID": 1,
+                "Name": "1"
+              }
+            ],
+            "SeasonsDT": [
+              {
+                "ID": 65,
+                "Name": "65"
+              }
+            ],
+            "LabType": 2
+          }
+        },
+        {
+          "season": "2024-25",
+          "file": "clinical_hhs_01_2024-25.csv",
+          "rows": 52,
+          "request": {
+            "AppVersion": "Public",
+            "DatasourceDT": [
+              {
+                "ID": 0,
+                "Name": "WHO_NREVSS"
+              }
+            ],
+            "RegionTypeId": 1,
+            "SubRegionsDT": [
+              {
+                "ID": 1,
+                "Name": "1"
+              }
+            ],
+            "SeasonsDT": [
+              {
+                "ID": 64,
+                "Name": "64"
+              }
+            ],
+            "LabType": 2
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Region 2",
+      "members": "New Jersey, New York, New York City, Puerto Rico, Virgin Islands",
+      "abbreviations": [
+        "NJ",
+        "NY",
+        "PR",
+        "VI"
+      ],
+      "downloads": [
+        {
+          "season": "2025-26",
+          "file": "clinical_hhs_02_2025-26.csv",
+          "rows": 53,
+          "request": {
+            "AppVersion": "Public",
+            "DatasourceDT": [
+              {
+                "ID": 0,
+                "Name": "WHO_NREVSS"
+              }
+            ],
+            "RegionTypeId": 1,
+            "SubRegionsDT": [
+              {
+                "ID": 2,
+                "Name": "2"
+              }
+            ],
+            "SeasonsDT": [
+              {
+                "ID": 65,
+                "Name": "65"
+              }
+            ],
+            "LabType": 2
+          }
+        },
+        {
+          "season": "2024-25",
+          "file": "clinical_hhs_02_2024-25.csv",
+          "rows": 52,
+          "request": {
+            "AppVersion": "Public",
+            "DatasourceDT": [
+              {
+                "ID": 0,
+                "Name": "WHO_NREVSS"
+              }
+            ],
+            "RegionTypeId": 1,
+            "SubRegionsDT": [
+              {
+                "ID": 2,
+                "Name": "2"
+              }
+            ],
+            "SeasonsDT": [
+              {
+                "ID": 64,
+                "Name": "64"
+              }
+            ],
+            "LabType": 2
+          }
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Region 3",
+      "members": "Delaware, District of Columbia, Maryland, Pennsylvania, Virginia, West Virginia",
+      "abbreviations": [
+        "DC",
+        "DE",
+        "MD",
+        "PA",
+        "VA",
+        "WV"
+      ],
+      "downloads": [
+        {
+          "season": "2025-26",
+          "file": "clinical_hhs_03_2025-26.csv",
+          "rows": 53,
+          "request": {
+            "AppVersion": "Public",
+            "DatasourceDT": [
+              {
+                "ID": 0,
+                "Name": "WHO_NREVSS"
+              }
+            ],
+            "RegionTypeId": 1,
+            "SubRegionsDT": [
+              {
+                "ID": 3,
+                "Name": "3"
+              }
+            ],
+            "SeasonsDT": [
+              {
+                "ID": 65,
+                "Name": "65"
+              }
+            ],
+            "LabType": 2
+          }
+        },
+        {
+          "season": "2024-25",
+          "file": "clinical_hhs_03_2024-25.csv",
+          "rows": 52,
+          "request": {
+            "AppVersion": "Public",
+            "DatasourceDT": [
+              {
+                "ID": 0,
+                "Name": "WHO_NREVSS"
+              }
+            ],
+            "RegionTypeId": 1,
+            "SubRegionsDT": [
+              {
+                "ID": 3,
+                "Name": "3"
+              }
+            ],
+            "SeasonsDT": [
+              {
+                "ID": 64,
+                "Name": "64"
+              }
+            ],
+            "LabType": 2
+          }
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Region 4",
+      "members": "Alabama, Florida, Georgia, Kentucky, Mississippi, North Carolina, South Carolina, Tennessee",
+      "abbreviations": [
+        "AL",
+        "FL",
+        "GA",
+        "KY",
+        "MS",
+        "NC",
+        "SC",
+        "TN"
+      ],
+      "downloads": [
+        {
+          "season": "2025-26",
+          "file": "clinical_hhs_04_2025-26.csv",
+          "rows": 53,
+          "request": {
+            "AppVersion": "Public",
+            "DatasourceDT": [
+              {
+                "ID": 0,
+                "Name": "WHO_NREVSS"
+              }
+            ],
+            "RegionTypeId": 1,
+            "SubRegionsDT": [
+              {
+                "ID": 4,
+                "Name": "4"
+              }
+            ],
+            "SeasonsDT": [
+              {
+                "ID": 65,
+                "Name": "65"
+              }
+            ],
+            "LabType": 2
+          }
+        },
+        {
+          "season": "2024-25",
+          "file": "clinical_hhs_04_2024-25.csv",
+          "rows": 52,
+          "request": {
+            "AppVersion": "Public",
+            "DatasourceDT": [
+              {
+                "ID": 0,
+                "Name": "WHO_NREVSS"
+              }
+            ],
+            "RegionTypeId": 1,
+            "SubRegionsDT": [
+              {
+                "ID": 4,
+                "Name": "4"
+              }
+            ],
+            "SeasonsDT": [
+              {
+                "ID": 64,
+                "Name": "64"
+              }
+            ],
+            "LabType": 2
+          }
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Region 5",
+      "members": "Chicago, Illinois, Indiana, Michigan, Minnesota, Ohio, Wisconsin",
+      "abbreviations": [
+        "IL",
+        "IN",
+        "MI",
+        "MN",
+        "OH",
+        "WI"
+      ],
+      "downloads": [
+        {
+          "season": "2025-26",
+          "file": "clinical_hhs_05_2025-26.csv",
+          "rows": 53,
+          "request": {
+            "AppVersion": "Public",
+            "DatasourceDT": [
+              {
+                "ID": 0,
+                "Name": "WHO_NREVSS"
+              }
+            ],
+            "RegionTypeId": 1,
+            "SubRegionsDT": [
+              {
+                "ID": 5,
+                "Name": "5"
+              }
+            ],
+            "SeasonsDT": [
+              {
+                "ID": 65,
+                "Name": "65"
+              }
+            ],
+            "LabType": 2
+          }
+        },
+        {
+          "season": "2024-25",
+          "file": "clinical_hhs_05_2024-25.csv",
+          "rows": 52,
+          "request": {
+            "AppVersion": "Public",
+            "DatasourceDT": [
+              {
+                "ID": 0,
+                "Name": "WHO_NREVSS"
+              }
+            ],
+            "RegionTypeId": 1,
+            "SubRegionsDT": [
+              {
+                "ID": 5,
+                "Name": "5"
+              }
+            ],
+            "SeasonsDT": [
+              {
+                "ID": 64,
+                "Name": "64"
+              }
+            ],
+            "LabType": 2
+          }
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Region 6",
+      "members": "Arkansas, Louisiana, New Mexico, Oklahoma, Texas",
+      "abbreviations": [
+        "AR",
+        "LA",
+        "NM",
+        "OK",
+        "TX"
+      ],
+      "downloads": [
+        {
+          "season": "2025-26",
+          "file": "clinical_hhs_06_2025-26.csv",
+          "rows": 53,
+          "request": {
+            "AppVersion": "Public",
+            "DatasourceDT": [
+              {
+                "ID": 0,
+                "Name": "WHO_NREVSS"
+              }
+            ],
+            "RegionTypeId": 1,
+            "SubRegionsDT": [
+              {
+                "ID": 6,
+                "Name": "6"
+              }
+            ],
+            "SeasonsDT": [
+              {
+                "ID": 65,
+                "Name": "65"
+              }
+            ],
+            "LabType": 2
+          }
+        },
+        {
+          "season": "2024-25",
+          "file": "clinical_hhs_06_2024-25.csv",
+          "rows": 52,
+          "request": {
+            "AppVersion": "Public",
+            "DatasourceDT": [
+              {
+                "ID": 0,
+                "Name": "WHO_NREVSS"
+              }
+            ],
+            "RegionTypeId": 1,
+            "SubRegionsDT": [
+              {
+                "ID": 6,
+                "Name": "6"
+              }
+            ],
+            "SeasonsDT": [
+              {
+                "ID": 64,
+                "Name": "64"
+              }
+            ],
+            "LabType": 2
+          }
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "name": "Region 7",
+      "members": "Iowa, Kansas, Missouri, Nebraska",
+      "abbreviations": [
+        "IA",
+        "KS",
+        "MO",
+        "NE"
+      ],
+      "downloads": [
+        {
+          "season": "2025-26",
+          "file": "clinical_hhs_07_2025-26.csv",
+          "rows": 53,
+          "request": {
+            "AppVersion": "Public",
+            "DatasourceDT": [
+              {
+                "ID": 0,
+                "Name": "WHO_NREVSS"
+              }
+            ],
+            "RegionTypeId": 1,
+            "SubRegionsDT": [
+              {
+                "ID": 7,
+                "Name": "7"
+              }
+            ],
+            "SeasonsDT": [
+              {
+                "ID": 65,
+                "Name": "65"
+              }
+            ],
+            "LabType": 2
+          }
+        },
+        {
+          "season": "2024-25",
+          "file": "clinical_hhs_07_2024-25.csv",
+          "rows": 52,
+          "request": {
+            "AppVersion": "Public",
+            "DatasourceDT": [
+              {
+                "ID": 0,
+                "Name": "WHO_NREVSS"
+              }
+            ],
+            "RegionTypeId": 1,
+            "SubRegionsDT": [
+              {
+                "ID": 7,
+                "Name": "7"
+              }
+            ],
+            "SeasonsDT": [
+              {
+                "ID": 64,
+                "Name": "64"
+              }
+            ],
+            "LabType": 2
+          }
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "name": "Region 8",
+      "members": "Colorado, Montana, North Dakota, South Dakota, Utah, Wyoming",
+      "abbreviations": [
+        "CO",
+        "MT",
+        "ND",
+        "SD",
+        "UT",
+        "WY"
+      ],
+      "downloads": [
+        {
+          "season": "2025-26",
+          "file": "clinical_hhs_08_2025-26.csv",
+          "rows": 53,
+          "request": {
+            "AppVersion": "Public",
+            "DatasourceDT": [
+              {
+                "ID": 0,
+                "Name": "WHO_NREVSS"
+              }
+            ],
+            "RegionTypeId": 1,
+            "SubRegionsDT": [
+              {
+                "ID": 8,
+                "Name": "8"
+              }
+            ],
+            "SeasonsDT": [
+              {
+                "ID": 65,
+                "Name": "65"
+              }
+            ],
+            "LabType": 2
+          }
+        },
+        {
+          "season": "2024-25",
+          "file": "clinical_hhs_08_2024-25.csv",
+          "rows": 52,
+          "request": {
+            "AppVersion": "Public",
+            "DatasourceDT": [
+              {
+                "ID": 0,
+                "Name": "WHO_NREVSS"
+              }
+            ],
+            "RegionTypeId": 1,
+            "SubRegionsDT": [
+              {
+                "ID": 8,
+                "Name": "8"
+              }
+            ],
+            "SeasonsDT": [
+              {
+                "ID": 64,
+                "Name": "64"
+              }
+            ],
+            "LabType": 2
+          }
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "name": "Region 9",
+      "members": "Arizona, California, Guam, Hawaii, Los Angeles, Nevada",
+      "abbreviations": [
+        "AZ",
+        "CA",
+        "GU",
+        "HI",
+        "NV"
+      ],
+      "downloads": [
+        {
+          "season": "2025-26",
+          "file": "clinical_hhs_09_2025-26.csv",
+          "rows": 53,
+          "request": {
+            "AppVersion": "Public",
+            "DatasourceDT": [
+              {
+                "ID": 0,
+                "Name": "WHO_NREVSS"
+              }
+            ],
+            "RegionTypeId": 1,
+            "SubRegionsDT": [
+              {
+                "ID": 9,
+                "Name": "9"
+              }
+            ],
+            "SeasonsDT": [
+              {
+                "ID": 65,
+                "Name": "65"
+              }
+            ],
+            "LabType": 2
+          }
+        },
+        {
+          "season": "2024-25",
+          "file": "clinical_hhs_09_2024-25.csv",
+          "rows": 52,
+          "request": {
+            "AppVersion": "Public",
+            "DatasourceDT": [
+              {
+                "ID": 0,
+                "Name": "WHO_NREVSS"
+              }
+            ],
+            "RegionTypeId": 1,
+            "SubRegionsDT": [
+              {
+                "ID": 9,
+                "Name": "9"
+              }
+            ],
+            "SeasonsDT": [
+              {
+                "ID": 64,
+                "Name": "64"
+              }
+            ],
+            "LabType": 2
+          }
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "name": "Region 10",
+      "members": "Alaska, Idaho, Oregon, Washington",
+      "abbreviations": [
+        "AK",
+        "ID",
+        "OR",
+        "WA"
+      ],
+      "downloads": [
+        {
+          "season": "2025-26",
+          "file": "clinical_hhs_10_2025-26.csv",
+          "rows": 53,
+          "request": {
+            "AppVersion": "Public",
+            "DatasourceDT": [
+              {
+                "ID": 0,
+                "Name": "WHO_NREVSS"
+              }
+            ],
+            "RegionTypeId": 1,
+            "SubRegionsDT": [
+              {
+                "ID": 10,
+                "Name": "10"
+              }
+            ],
+            "SeasonsDT": [
+              {
+                "ID": 65,
+                "Name": "65"
+              }
+            ],
+            "LabType": 2
+          }
+        },
+        {
+          "season": "2024-25",
+          "file": "clinical_hhs_10_2024-25.csv",
+          "rows": 52,
+          "request": {
+            "AppVersion": "Public",
+            "DatasourceDT": [
+              {
+                "ID": 0,
+                "Name": "WHO_NREVSS"
+              }
+            ],
+            "RegionTypeId": 1,
+            "SubRegionsDT": [
+              {
+                "ID": 10,
+                "Name": "10"
+              }
+            ],
+            "SeasonsDT": [
+              {
+                "ID": 64,
+                "Name": "64"
+              }
+            ],
+            "LabType": 2
+          }
+        }
+      ]
+    }
+  ]
+}
