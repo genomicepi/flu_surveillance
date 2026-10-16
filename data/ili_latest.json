@@ -1,20 +1,20 @@
 {
-  "retrieved_at_utc": "20261015T183812470384Z",
+  "retrieved_at_utc": "20261016T183633467608Z",
   "endpoint": "https://gis.cdc.gov/FluView1/Phase1IniP",
-  "report_url": "https://www.cdc.gov/fluview/surveillance/2026-week-39.html",
+  "report_url": "https://www.cdc.gov/fluview/surveillance/2026-week-40.html",
   "week": {
-    "mmwrid": 3379,
-    "weekend": "2026-10-03",
-    "weekendlabel": "Oct 03, 2026",
-    "weekendlabel2": "Oct-03-2026",
-    "weeknumber": 39,
-    "weekstart": "2026-09-27",
+    "mmwrid": 3380,
+    "weekend": "2026-10-10",
+    "weekendlabel": "Oct 10, 2026",
+    "weekendlabel2": "Oct-10-2026",
+    "weeknumber": 40,
+    "weekstart": "2026-10-04",
     "year": 2026,
-    "yearweek": 202639,
-    "seasonid": 65,
-    "label": "39"
+    "yearweek": 202640,
+    "seasonid": 66,
+    "label": "40"
   },
-  "season": "2025-26",
+  "season": "2026-27",
   "levels": [
     {
       "iliActivityid": 0,
@@ -133,24 +133,24 @@
     {
       "fips": 1,
       "jurisdiction": "Alabama",
-      "level": 2,
+      "level": 1,
       "category": "Minimal",
-      "color": "#5BF700",
-      "week": 39,
+      "color": "#00C200",
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 2,
       "jurisdiction": "Alaska",
-      "level": 2,
+      "level": 1,
       "category": "Minimal",
-      "color": "#5BF700",
-      "week": 39,
+      "color": "#00C200",
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 4,
@@ -158,10 +158,10 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 5,
@@ -169,32 +169,32 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 6,
       "jurisdiction": "California",
-      "level": 1,
+      "level": 3,
       "category": "Minimal",
-      "color": "#00C200",
-      "week": 39,
+      "color": "#8CF700",
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 8,
       "jurisdiction": "Colorado",
-      "level": 1,
+      "level": 3,
       "category": "Minimal",
-      "color": "#00C200",
-      "week": 39,
+      "color": "#8CF700",
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 69,
@@ -202,10 +202,10 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 9,
@@ -213,10 +213,10 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 10,
@@ -224,10 +224,10 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 11,
@@ -235,54 +235,54 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 12,
       "jurisdiction": "Florida",
-      "level": 2,
+      "level": 3,
       "category": "Minimal",
-      "color": "#5BF700",
-      "week": 39,
+      "color": "#8CF700",
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 13,
       "jurisdiction": "Georgia",
-      "level": 1,
+      "level": 2,
       "category": "Minimal",
-      "color": "#00C200",
-      "week": 39,
+      "color": "#5BF700",
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 15,
       "jurisdiction": "Hawaii",
-      "level": 4,
+      "level": 5,
       "category": "Low",
-      "color": "#BAF700",
-      "week": 39,
+      "color": "#E0F500",
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 16,
       "jurisdiction": "Idaho",
-      "level": 1,
+      "level": 2,
       "category": "Minimal",
-      "color": "#00C200",
-      "week": 39,
+      "color": "#5BF700",
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 17,
@@ -290,21 +290,21 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 18,
       "jurisdiction": "Indiana",
-      "level": 1,
+      "level": 2,
       "category": "Minimal",
-      "color": "#00C200",
-      "week": 39,
+      "color": "#5BF700",
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 19,
@@ -312,21 +312,21 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 20,
       "jurisdiction": "Kansas",
-      "level": 1,
+      "level": 2,
       "category": "Minimal",
-      "color": "#00C200",
-      "week": 39,
+      "color": "#5BF700",
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 21,
@@ -334,21 +334,21 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 22,
       "jurisdiction": "Louisiana",
-      "level": 4,
-      "category": "Low",
-      "color": "#BAF700",
-      "week": 39,
+      "level": 6,
+      "category": "Moderate",
+      "color": "#F7DF00",
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 23,
@@ -356,10 +356,10 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 24,
@@ -367,21 +367,21 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 25,
       "jurisdiction": "Massachusetts",
-      "level": 1,
+      "level": 2,
       "category": "Minimal",
-      "color": "#00C200",
-      "week": 39,
+      "color": "#5BF700",
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 26,
@@ -389,10 +389,10 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 27,
@@ -400,10 +400,10 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 28,
@@ -411,10 +411,10 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 29,
@@ -422,10 +422,10 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 30,
@@ -433,10 +433,10 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 31,
@@ -444,32 +444,32 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 32,
       "jurisdiction": "Nevada",
-      "level": 1,
+      "level": 2,
       "category": "Minimal",
-      "color": "#00C200",
-      "week": 39,
+      "color": "#5BF700",
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 33,
       "jurisdiction": "New Hampshire",
-      "level": 2,
+      "level": 1,
       "category": "Minimal",
-      "color": "#5BF700",
-      "week": 39,
+      "color": "#00C200",
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 34,
@@ -477,10 +477,10 @@
       "level": 2,
       "category": "Minimal",
       "color": "#5BF700",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 35,
@@ -488,21 +488,21 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 36,
       "jurisdiction": "New York",
-      "level": 1,
+      "level": 2,
       "category": "Minimal",
-      "color": "#00C200",
-      "week": 39,
+      "color": "#5BF700",
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 57,
@@ -510,10 +510,10 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 37,
@@ -521,10 +521,10 @@
       "level": 2,
       "category": "Minimal",
       "color": "#5BF700",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 38,
@@ -532,21 +532,21 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 39,
       "jurisdiction": "Ohio",
-      "level": 1,
+      "level": 2,
       "category": "Minimal",
-      "color": "#00C200",
-      "week": 39,
+      "color": "#5BF700",
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 40,
@@ -554,43 +554,43 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 41,
       "jurisdiction": "Oregon",
-      "level": 3,
+      "level": 2,
       "category": "Minimal",
-      "color": "#8CF700",
-      "week": 39,
+      "color": "#5BF700",
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 42,
       "jurisdiction": "Pennsylvania",
-      "level": 1,
+      "level": 2,
       "category": "Minimal",
-      "color": "#00C200",
-      "week": 39,
+      "color": "#5BF700",
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 72,
       "jurisdiction": "Puerto Rico",
-      "level": 2,
-      "category": "Minimal",
-      "color": "#5BF700",
-      "week": 39,
+      "level": 4,
+      "category": "Low",
+      "color": "#BAF700",
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 44,
@@ -598,21 +598,21 @@
       "level": 2,
       "category": "Minimal",
       "color": "#5BF700",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 45,
       "jurisdiction": "South Carolina",
-      "level": 3,
-      "category": "Minimal",
-      "color": "#8CF700",
-      "week": 39,
+      "level": 4,
+      "category": "Low",
+      "color": "#BAF700",
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 46,
@@ -620,10 +620,10 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 47,
@@ -631,10 +631,10 @@
       "level": 2,
       "category": "Minimal",
       "color": "#5BF700",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 48,
@@ -642,10 +642,10 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 49,
@@ -653,10 +653,10 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 50,
@@ -664,10 +664,10 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 78,
@@ -675,43 +675,43 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 51,
       "jurisdiction": "Virginia",
-      "level": 1,
+      "level": 2,
       "category": "Minimal",
-      "color": "#00C200",
-      "week": 39,
+      "color": "#5BF700",
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 53,
       "jurisdiction": "Washington",
-      "level": 3,
-      "category": "Minimal",
-      "color": "#8CF700",
-      "week": 39,
+      "level": 4,
+      "category": "Low",
+      "color": "#BAF700",
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 54,
       "jurisdiction": "West Virginia",
-      "level": 2,
-      "category": "Minimal",
-      "color": "#5BF700",
-      "week": 39,
+      "level": 4,
+      "category": "Low",
+      "color": "#BAF700",
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 55,
@@ -719,10 +719,10 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     },
     {
       "fips": 56,
@@ -730,10 +730,10 @@
       "level": 1,
       "category": "Minimal",
       "color": "#00C200",
-      "week": 39,
+      "week": 40,
       "year": 2026,
-      "week_ending": "2026-10-03",
-      "season": "2025-26"
+      "week_ending": "2026-10-10",
+      "season": "2026-27"
     }
   ]
 }

@@ -1,9 +1,41 @@
 {
-  "retrieved_at_utc": "20261015T183811006919Z",
+  "retrieved_at_utc": "20261016T183632379707Z",
   "endpoint": "https://gis.cdc.gov/flu2/PostPhase02StackedColumnChartDataDownload",
   "geography": "National",
   "laboratories": "Clinical",
   "seasons": [
+    {
+      "label": "2026-27",
+      "rows": 1,
+      "request": {
+        "AppVersion": "Public",
+        "DatasourceDT": [
+          {
+            "ID": 0,
+            "Name": "WHO_NREVSS"
+          }
+        ],
+        "RegionTypeId": 3,
+        "SubRegionsDT": [
+          {
+            "ID": 0,
+            "Name": ""
+          }
+        ],
+        "SeasonsDT": [
+          {
+            "ID": 66,
+            "Name": "66"
+          }
+        ],
+        "LabType": 2
+      },
+      "last_observation": [
+        2026,
+        40
+      ],
+      "report_url": "https://www.cdc.gov/fluview/surveillance/2026-week-40.html"
+    },
     {
       "label": "2025-26",
       "rows": 53,
@@ -35,38 +67,6 @@
         39
       ],
       "report_url": "https://www.cdc.gov/fluview/surveillance/2026-week-39.html"
-    },
-    {
-      "label": "2024-25",
-      "rows": 52,
-      "request": {
-        "AppVersion": "Public",
-        "DatasourceDT": [
-          {
-            "ID": 0,
-            "Name": "WHO_NREVSS"
-          }
-        ],
-        "RegionTypeId": 3,
-        "SubRegionsDT": [
-          {
-            "ID": 0,
-            "Name": ""
-          }
-        ],
-        "SeasonsDT": [
-          {
-            "ID": 64,
-            "Name": "64"
-          }
-        ],
-        "LabType": 2
-      },
-      "last_observation": [
-        2025,
-        39
-      ],
-      "report_url": "https://www.cdc.gov/fluview/surveillance/2025-week-39.html"
     }
   ]
 }
