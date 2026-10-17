@@ -1,0 +1,1197 @@
+{
+  "seasons": [
+    {
+      "seasonid": 66,
+      "id": 66,
+      "enabled": 1,
+      "endweek": 3380,
+      "startweek": 3431,
+      "showlabtype": 1,
+      "label": "2026-27",
+      "description": "Season 2026-27"
+    },
+    {
+      "seasonid": 65,
+      "id": 65,
+      "enabled": 1,
+      "endweek": 3327,
+      "startweek": 3379,
+      "showlabtype": 1,
+      "label": "2025-26",
+      "description": "Season 2025-26"
+    },
+    {
+      "seasonid": 64,
+      "id": 64,
+      "enabled": 1,
+      "endweek": 3275,
+      "startweek": 3326,
+      "showlabtype": 1,
+      "label": "2024-25",
+      "description": "Season 2024-25"
+    },
+    {
+      "seasonid": 63,
+      "id": 63,
+      "enabled": 1,
+      "endweek": 3223,
+      "startweek": 3274,
+      "showlabtype": 1,
+      "label": "2023-24",
+      "description": "Season 2023-24 "
+    },
+    {
+      "seasonid": 62,
+      "id": 62,
+      "enabled": 1,
+      "endweek": 3171,
+      "startweek": 3222,
+      "showlabtype": 1,
+      "label": "2022-23",
+      "description": "Season 2022-23"
+    },
+    {
+      "seasonid": 61,
+      "id": 61,
+      "enabled": 1,
+      "endweek": 3119,
+      "startweek": 3170,
+      "showlabtype": 1,
+      "label": "2021-22",
+      "description": "Season 2021-22"
+    },
+    {
+      "seasonid": 60,
+      "id": 60,
+      "enabled": 1,
+      "endweek": 3066,
+      "startweek": 3118,
+      "showlabtype": 1,
+      "label": "2020-21",
+      "description": "Season 2020-21"
+    },
+    {
+      "seasonid": 59,
+      "id": 59,
+      "enabled": 1,
+      "endweek": 3014,
+      "startweek": 3065,
+      "showlabtype": 1,
+      "label": "2019-20",
+      "description": "Season 2019-20"
+    },
+    {
+      "seasonid": 58,
+      "id": 58,
+      "enabled": 1,
+      "endweek": 2962,
+      "startweek": 3013,
+      "showlabtype": 1,
+      "label": "2018-19",
+      "description": "Season 2018-19"
+    },
+    {
+      "seasonid": 57,
+      "id": 57,
+      "enabled": 1,
+      "endweek": 2910,
+      "startweek": 2961,
+      "showlabtype": 1,
+      "label": "2017-18",
+      "description": "Season 2017-18"
+    },
+    {
+      "seasonid": 56,
+      "id": 56,
+      "enabled": 1,
+      "endweek": 2858,
+      "startweek": 2909,
+      "showlabtype": 1,
+      "label": "2016-17",
+      "description": "Season 2016-17"
+    },
+    {
+      "seasonid": 55,
+      "id": 55,
+      "enabled": 1,
+      "endweek": 2806,
+      "startweek": 2857,
+      "showlabtype": 1,
+      "label": "2015-16",
+      "description": "Season 2015-16"
+    },
+    {
+      "seasonid": 54,
+      "id": 54,
+      "enabled": 1,
+      "endweek": 2753,
+      "startweek": 2805,
+      "showlabtype": 0,
+      "label": "2014-15",
+      "description": "Season 2014-15"
+    },
+    {
+      "seasonid": 53,
+      "id": 53,
+      "enabled": 1,
+      "endweek": 2701,
+      "startweek": 2752,
+      "showlabtype": 0,
+      "label": "2013-14",
+      "description": "Season 2013-14"
+    },
+    {
+      "seasonid": 52,
+      "id": 52,
+      "enabled": 1,
+      "endweek": 2649,
+      "startweek": 2700,
+      "showlabtype": 0,
+      "label": "2012-13",
+      "description": "Season 2012-13"
+    },
+    {
+      "seasonid": 51,
+      "id": 51,
+      "enabled": 1,
+      "endweek": 2597,
+      "startweek": 2648,
+      "showlabtype": 0,
+      "label": "2011-12",
+      "description": "Season 2011-12"
+    },
+    {
+      "seasonid": 50,
+      "id": 50,
+      "enabled": 1,
+      "endweek": 2545,
+      "startweek": 2596,
+      "showlabtype": 0,
+      "label": "2010-11",
+      "description": "Season 2010-11"
+    },
+    {
+      "seasonid": 49,
+      "id": 49,
+      "enabled": 1,
+      "endweek": 2488,
+      "startweek": 2544,
+      "showlabtype": 0,
+      "label": "2009-10",
+      "description": "Season 2009-10"
+    },
+    {
+      "seasonid": 48,
+      "id": 48,
+      "enabled": 1,
+      "endweek": 2440,
+      "startweek": 2487,
+      "showlabtype": 0,
+      "label": "2008-09",
+      "description": "Season 2008-09"
+    }
+  ],
+  "ili_intensity": [
+    {
+      "iliActivityid": 0,
+      "value": 0,
+      "legend": "Insufficient Data",
+      "colorname": "White",
+      "color_hexvalue": "#FFFFFF",
+      "ili_activity_label": "Level 0"
+    },
+    {
+      "iliActivityid": 1,
+      "value": 1,
+      "legend": "Minimal",
+      "colorname": "Light blue",
+      "color_hexvalue": "#00C200",
+      "ili_activity_label": "Level 1"
+    },
+    {
+      "iliActivityid": 2,
+      "value": 2,
+      "legend": "Minimal",
+      "colorname": "Shaded blue",
+      "color_hexvalue": "#5BF700",
+      "ili_activity_label": "Level 2"
+    },
+    {
+      "iliActivityid": 3,
+      "value": 3,
+      "legend": "Minimal",
+      "colorname": "Blue",
+      "color_hexvalue": "#8CF700",
+      "ili_activity_label": "Level 3"
+    },
+    {
+      "iliActivityid": 4,
+      "value": 4,
+      "legend": "Low",
+      "colorname": "Green",
+      "color_hexvalue": "#BAF700",
+      "ili_activity_label": "Level 4"
+    },
+    {
+      "iliActivityid": 5,
+      "value": 5,
+      "legend": "Low",
+      "colorname": "Light yellow",
+      "color_hexvalue": "#E0F500",
+      "ili_activity_label": "Level 5"
+    },
+    {
+      "iliActivityid": 6,
+      "value": 6,
+      "legend": "Moderate",
+      "colorname": "Yellow",
+      "color_hexvalue": "#F7DF00",
+      "ili_activity_label": "Level 6"
+    },
+    {
+      "iliActivityid": 7,
+      "value": 7,
+      "legend": "Moderate",
+      "colorname": "Light Orange",
+      "color_hexvalue": "#FCB100",
+      "ili_activity_label": "Level 7"
+    },
+    {
+      "iliActivityid": 8,
+      "value": 8,
+      "legend": "High",
+      "colorname": "Orange",
+      "color_hexvalue": "#FC8200",
+      "ili_activity_label": "Level 8"
+    },
+    {
+      "iliActivityid": 9,
+      "value": 9,
+      "legend": "High",
+      "colorname": "Light Red",
+      "color_hexvalue": "#FA4F00",
+      "ili_activity_label": "Level 9"
+    },
+    {
+      "iliActivityid": 10,
+      "value": 10,
+      "legend": "High",
+      "colorname": "Red",
+      "color_hexvalue": "#CC0000",
+      "ili_activity_label": "Level 10"
+    },
+    {
+      "iliActivityid": 11,
+      "value": 11,
+      "legend": "Very High",
+      "colorname": "Purple",
+      "color_hexvalue": "#960000",
+      "ili_activity_label": "Level 11"
+    },
+    {
+      "iliActivityid": 12,
+      "value": 12,
+      "legend": "Very High",
+      "colorname": "Purple",
+      "color_hexvalue": "#6E0000",
+      "ili_activity_label": "Level 12"
+    },
+    {
+      "iliActivityid": 13,
+      "value": 13,
+      "legend": "Very High",
+      "colorname": "Purple",
+      "color_hexvalue": "#4C0073",
+      "ili_activity_label": "Level 13"
+    }
+  ],
+  "disclaimer": [
+    {
+      "pagedisclaimertext": "*This map uses the proportion of outpatient visits to healthcare providers for influenza-like illness to measure the ILI activity level within a state. It does not, however, measure the extent of geographic spread of flu within a state. Therefore, outbreaks occurring in a single city could cause the state to display high activity levels. *Data collected in ILINet may disproportionately represent certain populations within a state, and therefore may not accurately depict the full picture of influenza activity for the whole state. *Data displayed in this map are based on data collected in ILINet, whereas the State and Territorial flu activity map are based on reports from state and territorial epidemiologists. The data presented in this map is preliminary and may change as more data is received. *Differences in the data presented by CDC and state health departments likely represent differing levels of data completeness with data presented by the state likely being the more complete. *For the data download you can use Activity Level  for the number and Activity Level Label for the text description.",
+      "pagedisclaimertext_html": "*This map uses the proportion of outpatient visits to healthcare providers for influenza-like illness to measure the ILI activity level within a state. It does not, however, measure the extent of geographic spread of flu within a state. Therefore, outbreaks occurring in a single city could cause the state to display high activity levels.<br/>*Data collected in ILINet may disproportionately represent certain populations within a state, and therefore may not accurately depict the full picture of influenza activity for the whole state.<br/>*Data displayed in this map are based on data collected in ILINet, whereas the State and Territorial flu activity map are based on reports from state and territorial epidemiologists. The data presented in this map is preliminary and may change as more data is received.<br/>*Differences in the data presented by CDC and state health departments likely represent differing levels of data completeness with data presented by the state likely being the more complete.<br/>*For the data download you can use Activity Level  for the number and Activity Level Label for the text description."
+    }
+  ],
+  "stateinfo": [
+    {
+      "stateid": 1,
+      "statename": "Alabama",
+      "statefips": "01        ",
+      "stateabbr": "AL ",
+      "url": "http://adph.org/influenza/",
+      "statewebsitename": "Influenza Surveillance",
+      "statefluphonenum": "334-206-5300",
+      "statehealthdeptname": "Alabama Department of Public Health"
+    },
+    {
+      "stateid": 2,
+      "statename": "Alaska",
+      "statefips": "02        ",
+      "stateabbr": "AK ",
+      "url": "http://dhss.alaska.gov/dph/Epi/id/Pages/influenza/influenza.aspx ",
+      "statewebsitename": "Influenza Surveillance Report",
+      "statefluphonenum": "907-269-8000",
+      "statehealthdeptname": "State of Alaska Health and Social Services"
+    },
+    {
+      "stateid": 3,
+      "statename": "Arizona",
+      "statefips": "04        ",
+      "stateabbr": "AZ ",
+      "url": "http://www.azdhs.gov/phs/oids/epi/flu/index.htm",
+      "statewebsitename": "Influenza & RSV Surveillance",
+      "statefluphonenum": "602-542-1025",
+      "statehealthdeptname": "Arizona Department of Health Services"
+    },
+    {
+      "stateid": 4,
+      "statename": "Arkansas",
+      "statefips": "05        ",
+      "stateabbr": "AR ",
+      "url": "http://www.healthy.arkansas.gov/programs-services/topics/influenza",
+      "statewebsitename": "Communicable Disease and Immunizations",
+      "statefluphonenum": "501-661-2000",
+      "statehealthdeptname": "Arkansas Department of Health"
+    },
+    {
+      "stateid": 5,
+      "statename": "California",
+      "statefips": "06        ",
+      "stateabbr": "CA ",
+      "url": "https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/Influenza.aspx",
+      "statewebsitename": "Influenza (Flu)",
+      "statefluphonenum": "916-558-1784",
+      "statehealthdeptname": "California Department of Public Health"
+    },
+    {
+      "stateid": 6,
+      "statename": "Colorado",
+      "statefips": "08        ",
+      "stateabbr": "CO ",
+      "url": "https://www.colorado.gov/pacific/cdphe/influenza",
+      "statewebsitename": "Influenza Surveillance",
+      "statefluphonenum": "303-692-2000",
+      "statehealthdeptname": "Colorado Department of Public Health and Environment"
+    },
+    {
+      "stateid": 7,
+      "statename": "Connecticut",
+      "statefips": "09        ",
+      "stateabbr": "CT ",
+      "url": "https://portal.ct.gov/DPH/Epidemiology-and-Emerging-Infections/Influenza-Surveillance-and-Statistics",
+      "statewebsitename": "Flu Statistics",
+      "statefluphonenum": "860-509-8000",
+      "statehealthdeptname": "Connecticut Department of Public Health"
+    },
+    {
+      "stateid": 8,
+      "statename": "Delaware",
+      "statefips": "10        ",
+      "stateabbr": "DE ",
+      "url": "http://dhss.delaware.gov/dhss/dph/epi/influenzawkly.html",
+      "statewebsitename": "Weekly Influenza Surveillance Reports",
+      "statefluphonenum": "302-744-4700",
+      "statehealthdeptname": "Delaware Health and Social Services"
+    },
+    {
+      "stateid": 9,
+      "statename": "District of Columbia",
+      "statefips": "11        ",
+      "stateabbr": "DC ",
+      "url": "https://dchealth.dc.gov/node/114982",
+      "statewebsitename": "Influenza Information",
+      "statefluphonenum": "202-442-5955",
+      "statehealthdeptname": "District of Columbia Department of Health"
+    },
+    {
+      "stateid": 10,
+      "statename": "Florida",
+      "statefips": "12        ",
+      "stateabbr": "FL ",
+      "url": "http://www.floridahealth.gov/diseases-and-conditions/influenza/index.html ",
+      "statewebsitename": "Weekly Influenza Surveillance Reports",
+      "statefluphonenum": "850-245-4300",
+      "statehealthdeptname": "Florida Department of Health"
+    },
+    {
+      "stateid": 11,
+      "statename": "Georgia",
+      "statefips": "13        ",
+      "stateabbr": "GA ",
+      "url": "https://dph.georgia.gov/epidemiology/influenza/georgia-influenza-activity",
+      "statewebsitename": "Weekly Influenza Surveillance in Georgia",
+      "statefluphonenum": "404-657-2700",
+      "statehealthdeptname": "Georgia Department of Public Health"
+    },
+    {
+      "stateid": 12,
+      "statename": "Hawaii",
+      "statefips": "15        ",
+      "stateabbr": "HI ",
+      "url": "http://health.hawaii.gov/docd/resources/reports/influenza-reports/",
+      "statewebsitename": "Hawaii's Influenza Surveillance Program",
+      "statefluphonenum": "808-586-4400",
+      "statehealthdeptname": "Hawaii State Department of Health"
+    },
+    {
+      "stateid": 13,
+      "statename": "Idaho",
+      "statefips": "16        ",
+      "stateabbr": "ID ",
+      "url": "http://flu.idaho.gov",
+      "statewebsitename": "Influenza",
+      "statefluphonenum": "208-334-5500",
+      "statehealthdeptname": "Idaho Department of Health and Welfare"
+    },
+    {
+      "stateid": 14,
+      "statename": "Illinois",
+      "statefips": "17        ",
+      "stateabbr": "IL ",
+      "url": "http://www.dph.illinois.gov/topics-services/diseases-and-conditions/influenza/influenza-surveillance",
+      "statewebsitename": "Seasonal Influenza Surveillance Reports",
+      "statefluphonenum": "217-782-7860",
+      "statehealthdeptname": "Illinois Department of Public Health"
+    },
+    {
+      "stateid": 15,
+      "statename": "Indiana",
+      "statefips": "18        ",
+      "stateabbr": "IN ",
+      "url": "https://www.in.gov/health/idepd/influenza/influenza-dashboard/",
+      "statewebsitename": "Influenza in Indiana",
+      "statefluphonenum": "317-233-1325",
+      "statehealthdeptname": "Indiana State Department of Health"
+    },
+    {
+      "stateid": 16,
+      "statename": "Iowa",
+      "statefips": "19        ",
+      "stateabbr": "IA ",
+      "url": "https://idph.iowa.gov/influenza/reports",
+      "statewebsitename": "Iowa Influenza Surveillance Network",
+      "statefluphonenum": "515-281-7689",
+      "statehealthdeptname": "Iowa Department of Public Health"
+    },
+    {
+      "stateid": 17,
+      "statename": "Kansas",
+      "statefips": "20        ",
+      "stateabbr": "KS ",
+      "url": "http://www.kdheks.gov/flu/surveillance.htm",
+      "statewebsitename": "Influenza Information",
+      "statefluphonenum": "785-296-1500",
+      "statehealthdeptname": "Kansas Department of Health and Environment"
+    },
+    {
+      "stateid": 18,
+      "statename": "Kentucky",
+      "statefips": "21        ",
+      "stateabbr": "KY ",
+      "url": "https://www.chfs.ky.gov/agencies/dph/Pages/RespiratoryDiseases.aspx",
+      "statewebsitename": "Influenza - Flu",
+      "statefluphonenum": "502-564-3970",
+      "statehealthdeptname": "Kentucky Cabinet for Health and Family Services"
+    },
+    {
+      "stateid": 19,
+      "statename": "Louisiana",
+      "statefips": "22        ",
+      "stateabbr": "LA ",
+      "url": "https://ldh.la.gov/page/respiratory-home",
+      "statewebsitename": "Influenza",
+      "statefluphonenum": "504-219-4563",
+      "statehealthdeptname": "Louisiana Department of Health and Hospitals"
+    },
+    {
+      "stateid": 20,
+      "statename": "Maine",
+      "statefips": "23        ",
+      "stateabbr": "ME ",
+      "url": "http://www.maine.gov/dhhs/mecdc/infectious-disease/epi/influenza/influenza-surveillance-weekly-updates.shtml",
+      "statewebsitename": "Weekly Surveillance Updates",
+      "statefluphonenum": "207-287-8016",
+      "statehealthdeptname": "Maine Center for Disease Control and Prevention"
+    },
+    {
+      "stateid": 21,
+      "statename": "Maryland",
+      "statefips": "24        ",
+      "stateabbr": "MD ",
+      "url": "https://phpa.health.maryland.gov/influenza/fluwatch",
+      "statewebsitename": "Influenza Surveillance",
+      "statefluphonenum": "410-767-6742",
+      "statehealthdeptname": "Maryland Department of Health and Mental Hygiene"
+    },
+    {
+      "stateid": 22,
+      "statename": "Massachusetts",
+      "statefips": "25        ",
+      "stateabbr": "MA ",
+      "url": "https://www.mass.gov/info-details/influenza-reporting",
+      "statewebsitename": "Influenza Surveillance Data",
+      "statefluphonenum": "866-627-7968",
+      "statehealthdeptname": "Massachusetts Department of Public Health"
+    },
+    {
+      "stateid": 23,
+      "statename": "Michigan",
+      "statefips": "26        ",
+      "stateabbr": "MI ",
+      "url": "michigan.gov/flu/surveillance",
+      "statewebsitename": "Influenza Activity and Surveillance",
+      "statefluphonenum": "517-373-3740",
+      "statehealthdeptname": "Michigan Department of Community Health"
+    },
+    {
+      "stateid": 24,
+      "statename": "Minnesota",
+      "statefips": "27        ",
+      "stateabbr": "MN ",
+      "url": "http://www.health.state.mn.us/divs/idepc/diseases/flu/stats/index.html",
+      "statewebsitename": "Weekly Influenza Activity: Statistics",
+      "statefluphonenum": "651-201-5000",
+      "statehealthdeptname": "Minnesota Department of Health"
+    },
+    {
+      "stateid": 25,
+      "statename": "Mississippi",
+      "statefips": "28        ",
+      "stateabbr": "MS ",
+      "url": "http://www.msdh.state.ms.us/msdhsite/_static/14%2c0%2c199%2c230.html",
+      "statewebsitename": "Mississippi Flu Surveillance and Influenza-Like Illness Reports",
+      "statefluphonenum": "866-458-4948",
+      "statehealthdeptname": "Mississippi State Department of Health"
+    },
+    {
+      "stateid": 26,
+      "statename": "Missouri",
+      "statefips": "29        ",
+      "stateabbr": "MO ",
+      "url": "http://health.mo.gov/living/healthcondiseases/communicable/influenza/reports.php",
+      "statewebsitename": "Influenza Data & Statistical Reports ",
+      "statefluphonenum": "573-751-6400",
+      "statehealthdeptname": "State of Missouri Department of Health and Senior Services"
+    },
+    {
+      "stateid": 27,
+      "statename": "Montana",
+      "statefips": "30        ",
+      "stateabbr": "MT ",
+      "url": "https://dphhs.mt.gov/publichealth/cdepi/diseases/Pan-Respiratory/InfluenzaDashboard",
+      "statewebsitename": "Influenza: What You Need to Know",
+      "statefluphonenum": "406-444-5622",
+      "statehealthdeptname": "Montana Department of Public Health and Human Services"
+    },
+    {
+      "stateid": 28,
+      "statename": "Nebraska",
+      "statefips": "31        ",
+      "stateabbr": "NE ",
+      "url": "http://dhhs.ne.gov/Pages/Flu.aspx ",
+      "statewebsitename": "Weekly Flu Report",
+      "statefluphonenum": "402-471-3121",
+      "statehealthdeptname": "Nebraska Department of Health and Human Services"
+    },
+    {
+      "stateid": 29,
+      "statename": "Nevada",
+      "statefips": "32        ",
+      "stateabbr": "NV ",
+      "url": "http://dpbh.nv.gov/Programs/Flu/Influenza/ ",
+      "statewebsitename": "Influenza (Flu): Surveillance, News Releases and Brochures",
+      "statefluphonenum": "775-684-4200",
+      "statehealthdeptname": "Nevada Department of Health and Human Services"
+    },
+    {
+      "stateid": 30,
+      "statename": "New Hampshire",
+      "statefips": "33        ",
+      "stateabbr": "NH ",
+      "url": "http://www.dhhs.nh.gov/dphs/cdcs/influenza/activity.htm",
+      "statewebsitename": "Influenza Control and Surveillance",
+      "statefluphonenum": "603-271-4501",
+      "statehealthdeptname": "New Hampshire Department of Health and Senior Services"
+    },
+    {
+      "stateid": 31,
+      "statename": "New Jersey",
+      "statefips": "34        ",
+      "stateabbr": "NJ ",
+      "url": "http://www.nj.gov/health/cd/topics/flu.shtml",
+      "statewebsitename": "Seasonal Influenza - Surveillance",
+      "statefluphonenum": "609-292-7837",
+      "statehealthdeptname": "New Jersey Department of Health"
+    },
+    {
+      "stateid": 32,
+      "statename": "New Mexico",
+      "statefips": "35        ",
+      "stateabbr": "NM ",
+      "url": "https://nmhealth.org/about/erd/ideb/isp/",
+      "statewebsitename": "Flu in New Mexico",
+      "statefluphonenum": "505-827-2613",
+      "statehealthdeptname": "New Mexico Department of Health"
+    },
+    {
+      "stateid": 33,
+      "statename": "New York",
+      "statefips": "36        ",
+      "stateabbr": "NY ",
+      "url": "http://www.health.ny.gov/diseases/communicable/influenza/surveillance/",
+      "statewebsitename": "Influenza Activity, Surveillance and Reports",
+      "statefluphonenum": "866-881-2809",
+      "statehealthdeptname": "New York State Department of Health"
+    },
+    {
+      "stateid": 34,
+      "statename": "North Carolina",
+      "statefips": "37        ",
+      "stateabbr": "NC ",
+      "url": "http://www.flu.nc.gov/ ",
+      "statewebsitename": "North Carolina Influenza Update",
+      "statefluphonenum": "919-707-5000",
+      "statehealthdeptname": "North Carolina Division of Public Health"
+    },
+    {
+      "stateid": 35,
+      "statename": "North Dakota",
+      "statefips": "38        ",
+      "stateabbr": "ND ",
+      "url": "http://www.ndflu.com/default.aspx",
+      "statewebsitename": "Influenza",
+      "statefluphonenum": "701-328-2378",
+      "statehealthdeptname": "North Dakota Department of Health"
+    },
+    {
+      "stateid": 36,
+      "statename": "Ohio",
+      "statefips": "39        ",
+      "stateabbr": "OH ",
+      "url": "http://www.flu.ohio.gov ",
+      "statewebsitename": "Influenza Information",
+      "statefluphonenum": "866-800-1404",
+      "statehealthdeptname": "Ohio Department of Health"
+    },
+    {
+      "stateid": 37,
+      "statename": "Oklahoma",
+      "statefips": "40        ",
+      "stateabbr": "OK ",
+      "url": "https://oklahoma.gov/health/health-education/acute-disease-service/viral-view/influenza.html",
+      "statewebsitename": "Influenza Information",
+      "statefluphonenum": "405-271-5600",
+      "statehealthdeptname": "Oklahoma State Department of Health"
+    },
+    {
+      "stateid": 38,
+      "statename": "Oregon",
+      "statefips": "41        ",
+      "stateabbr": "OR ",
+      "url": "http://public.health.oregon.gov/DiseasesConditions/CommunicableDisease/DiseaseSurveillanceData/Influenza/Pages/surveil.aspx",
+      "statewebsitename": "Influenza Disease Surveillance Data",
+      "statefluphonenum": "800-978-3040",
+      "statehealthdeptname": "Oregon Public Health Division"
+    },
+    {
+      "stateid": 39,
+      "statename": "Pennsylvania",
+      "statefips": "42        ",
+      "stateabbr": "PA ",
+      "url": "https://www.health.pa.gov/topics/disease/Flu/Pages/Flu.aspx ",
+      "statewebsitename": "Influenza Weekly Report ",
+      "statefluphonenum": "877-724-3258",
+      "statehealthdeptname": "Pennsylvania Department of Health"
+    },
+    {
+      "stateid": 40,
+      "statename": "Rhode Island",
+      "statefips": "44        ",
+      "stateabbr": "RI ",
+      "url": "http://www.health.ri.gov/data/flu/index.php",
+      "statewebsitename": "Influenza Surveillance",
+      "statefluphonenum": "401-222-5960",
+      "statehealthdeptname": "State of Rhode Island Department of Health"
+    },
+    {
+      "stateid": 41,
+      "statename": "South Carolina",
+      "statefips": "45        ",
+      "stateabbr": "SC ",
+      "url": "http://www.scdhec.gov/Health/DiseasesandConditions/InfectiousDiseases/Flu/FluData/",
+      "statewebsitename": "Influenza Activity and Surveillance",
+      "statefluphonenum": "803-898-3432",
+      "statehealthdeptname": "South Carolina Department of Health and Environmental Control"
+    },
+    {
+      "stateid": 42,
+      "statename": "South Dakota",
+      "statefips": "46        ",
+      "stateabbr": "SD ",
+      "url": "https://doh.sd.gov/health-data-reports/data-dashboards/influenza-dashboard/",
+      "statewebsitename": "Influenza Information",
+      "statefluphonenum": "606-773-3361",
+      "statehealthdeptname": "South Dakota Department of Health"
+    },
+    {
+      "stateid": 43,
+      "statename": "Tennessee",
+      "statefips": "47        ",
+      "stateabbr": "TN ",
+      "url": "http://www.tn.gov/health/cedep/immunization-program/ip/flu-in-tennessee.html",
+      "statewebsitename": "Influenza-Like Illness Surveillance Summary Archive",
+      "statefluphonenum": "615-741-3111",
+      "statehealthdeptname": "Tennessee Department of Health"
+    },
+    {
+      "stateid": 44,
+      "statename": "Texas",
+      "statefips": "48        ",
+      "stateabbr": "TX ",
+      "url": "http://www.dshs.state.tx.us/idcu/disease/influenza/surveillance/",
+      "statewebsitename": "Influenza Surveillance",
+      "statefluphonenum": "512-458-7111",
+      "statehealthdeptname": "Texas Department of State Health Services"
+    },
+    {
+      "stateid": 45,
+      "statename": "Utah",
+      "statefips": "49        ",
+      "stateabbr": "UT ",
+      "url": "http://health.utah.gov/epi/diseases/influenza/surveillance/index.html",
+      "statewebsitename": "Seasonal Influenza Weekly Update",
+      "statefluphonenum": "801-538-6101",
+      "statehealthdeptname": "Utah Department of Health"
+    },
+    {
+      "stateid": 46,
+      "statename": "Vermont",
+      "statefips": "50        ",
+      "stateabbr": "VT ",
+      "url": "http://www.healthvermont.gov/immunizations-infectious-disease/influenza/flu-activity-and-surveillance",
+      "statewebsitename": "Flu Activity",
+      "statefluphonenum": "802-863-7200",
+      "statehealthdeptname": "Vermont Department of Health"
+    },
+    {
+      "stateid": 47,
+      "statename": "Virginia",
+      "statefips": "51        ",
+      "stateabbr": "VA ",
+      "url": "http://www.vdh.virginia.gov/epidemiology/influenza-flu-in-virginia/influenza-surveillance/",
+      "statewebsitename": "Virginia Weekly Influenza Activity Report",
+      "statefluphonenum": "804-864-8141",
+      "statehealthdeptname": "Virginia Department of Health"
+    },
+    {
+      "stateid": 48,
+      "statename": "Washington",
+      "statefips": "53        ",
+      "stateabbr": "WA ",
+      "url": "http://www.doh.wa.gov/DataandStatisticalReports/DiseasesandChronicConditions/CommunicableDiseaseSurveillanceData/InfluenzaSurveillanceData",
+      "statewebsitename": "Influenza Update",
+      "statefluphonenum": "206-418-5500",
+      "statehealthdeptname": "Washington State Department of Health"
+    },
+    {
+      "stateid": 49,
+      "statename": "West Virginia",
+      "statefips": "54        ",
+      "stateabbr": "WV ",
+      "url": "https://breatheeasy.wv.gov",
+      "statewebsitename": "Current Influenza Surveillance",
+      "statefluphonenum": "304-558-5358",
+      "statehealthdeptname": "West Virginia Bureau for Public Health"
+    },
+    {
+      "stateid": 50,
+      "statename": "Wisconsin",
+      "statefips": "55        ",
+      "stateabbr": "WI ",
+      "url": "http://www.dhs.wisconsin.gov/communicable/influenza/index.htm",
+      "statewebsitename": "Tracking Influenza in Wisconsin",
+      "statefluphonenum": "608-266-1865",
+      "statehealthdeptname": "Wisconsin Department of Health Services"
+    },
+    {
+      "stateid": 51,
+      "statename": "Wyoming",
+      "statefips": "56        ",
+      "stateabbr": "WY ",
+      "url": "https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/influenza/",
+      "statewebsitename": "Influenza",
+      "statefluphonenum": "866-571-0944",
+      "statehealthdeptname": "Wyoming Department of Health"
+    },
+    {
+      "stateid": 52,
+      "statename": "American Samoa",
+      "statefips": "60        ",
+      "stateabbr": "AS ",
+      "url": "",
+      "statewebsitename": "",
+      "statefluphonenum": "",
+      "statehealthdeptname": ""
+    },
+    {
+      "stateid": 53,
+      "statename": "Guam",
+      "statefips": "66        ",
+      "stateabbr": "GU ",
+      "url": "",
+      "statewebsitename": "",
+      "statefluphonenum": "",
+      "statehealthdeptname": ""
+    },
+    {
+      "stateid": 54,
+      "statename": "Commonwealth of the Northern Mariana Islands",
+      "statefips": "69        ",
+      "stateabbr": "MP ",
+      "url": "",
+      "statewebsitename": "",
+      "statefluphonenum": "",
+      "statehealthdeptname": ""
+    },
+    {
+      "stateid": 55,
+      "statename": "Puerto Rico",
+      "statefips": "72        ",
+      "stateabbr": "PR ",
+      "url": "https://www.salud.gov.pr/CMS/92",
+      "statewebsitename": "Puerto Rico Departamento de Salud",
+      "statefluphonenum": "787-765-2929",
+      "statehealthdeptname": "Puerto Rico Departamento de Salud"
+    },
+    {
+      "stateid": 56,
+      "statename": "Virgin Islands",
+      "statefips": "78        ",
+      "stateabbr": "VI ",
+      "url": "https://doh.vi.gov/resources/influenza-flu",
+      "statewebsitename": "Influenza",
+      "statefluphonenum": "340-773-1311",
+      "statehealthdeptname": "United States Virgin Islands Department of Health"
+    },
+    {
+      "stateid": 57,
+      "statename": "Republic of Palau",
+      "statefips": "80        ",
+      "stateabbr": "PAL",
+      "url": "",
+      "statewebsitename": "",
+      "statefluphonenum": "",
+      "statehealthdeptname": ""
+    },
+    {
+      "stateid": 58,
+      "statename": "New York City",
+      "statefips": "57        ",
+      "stateabbr": "NYC",
+      "url": "http://www1.nyc.gov/site/doh/providers/health-topics/flu-alerts.page",
+      "statewebsitename": "Surveillance Data",
+      "statefluphonenum": "212-788-4219",
+      "statehealthdeptname": "New York City Department of Health and Mental Hygiene"
+    },
+    {
+      "stateid": 59,
+      "statename": "Los Angeles",
+      "statefips": "91        ",
+      "stateabbr": "LAX",
+      "url": "",
+      "statewebsitename": "",
+      "statefluphonenum": "",
+      "statehealthdeptname": ""
+    }
+  ],
+  "busdata": [
+    {
+      "stateid": 1,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 2,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 3,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 4,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 5,
+      "iliactivityid": 3,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 6,
+      "iliactivityid": 3,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 7,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 8,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 9,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 10,
+      "iliactivityid": 3,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 11,
+      "iliactivityid": 2,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 12,
+      "iliactivityid": 5,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 13,
+      "iliactivityid": 2,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 14,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 15,
+      "iliactivityid": 2,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 16,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 17,
+      "iliactivityid": 2,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 18,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 19,
+      "iliactivityid": 6,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 20,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 21,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 22,
+      "iliactivityid": 2,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 23,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 24,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 25,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 26,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 27,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 28,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 29,
+      "iliactivityid": 2,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 30,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 31,
+      "iliactivityid": 2,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 32,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 33,
+      "iliactivityid": 2,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 34,
+      "iliactivityid": 2,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 35,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 36,
+      "iliactivityid": 2,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 37,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 38,
+      "iliactivityid": 2,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 39,
+      "iliactivityid": 2,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 40,
+      "iliactivityid": 2,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 41,
+      "iliactivityid": 4,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 42,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 43,
+      "iliactivityid": 2,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 44,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 45,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 46,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 47,
+      "iliactivityid": 2,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 48,
+      "iliactivityid": 4,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 49,
+      "iliactivityid": 4,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 50,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 51,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 54,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 55,
+      "iliactivityid": 4,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 56,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    },
+    {
+      "stateid": 58,
+      "iliactivityid": 1,
+      "mmwrid": 3380
+    }
+  ],
+  "mmwr": [
+    {
+      "mmwrid": 3380,
+      "weekend": "2026-10-10",
+      "weekendlabel": "Oct 10, 2026",
+      "weekendlabel2": "Oct-10-2026",
+      "weeknumber": 40,
+      "weekstart": "2026-10-04",
+      "year": 2026,
+      "yearweek": 202640,
+      "seasonid": 66,
+      "label": "40"
+    }
+  ]
+}
