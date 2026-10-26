@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-25T18:34:45.799564</dc:date>
+    <dc:date>2026-10-26T18:47:58.478987</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -837,7 +837,7 @@ z
      <g id="line2d_13">
       <path d="M 77.76 391.68 
 L 820.8 391.68 
-" clip-path="url(#p59b6bee587)" style="fill: none; stroke: #e5e9ec; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p092f6a33d4)" style="fill: none; stroke: #e5e9ec; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_14"/>
      <g id="text_14">
@@ -874,7 +874,7 @@ z
      <g id="line2d_15">
       <path d="M 77.76 351.208206 
 L 820.8 351.208206 
-" clip-path="url(#p59b6bee587)" style="fill: none; stroke: #e5e9ec; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p092f6a33d4)" style="fill: none; stroke: #e5e9ec; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_16"/>
      <g id="text_15">
@@ -915,7 +915,7 @@ z
      <g id="line2d_17">
       <path d="M 77.76 310.736411 
 L 820.8 310.736411 
-" clip-path="url(#p59b6bee587)" style="fill: none; stroke: #e5e9ec; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p092f6a33d4)" style="fill: none; stroke: #e5e9ec; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_18"/>
      <g id="text_16">
@@ -946,7 +946,7 @@ z
      <g id="line2d_19">
       <path d="M 77.76 270.264617 
 L 820.8 270.264617 
-" clip-path="url(#p59b6bee587)" style="fill: none; stroke: #e5e9ec; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p092f6a33d4)" style="fill: none; stroke: #e5e9ec; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_20"/>
      <g id="text_17">
@@ -961,7 +961,7 @@ L 820.8 270.264617
      <g id="line2d_21">
       <path d="M 77.76 229.792822 
 L 820.8 229.792822 
-" clip-path="url(#p59b6bee587)" style="fill: none; stroke: #e5e9ec; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p092f6a33d4)" style="fill: none; stroke: #e5e9ec; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_22"/>
      <g id="text_18">
@@ -1002,7 +1002,7 @@ z
      <g id="line2d_23">
       <path d="M 77.76 189.321028 
 L 820.8 189.321028 
-" clip-path="url(#p59b6bee587)" style="fill: none; stroke: #e5e9ec; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p092f6a33d4)" style="fill: none; stroke: #e5e9ec; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_24"/>
      <g id="text_19">
@@ -1017,7 +1017,7 @@ L 820.8 189.321028
      <g id="line2d_25">
       <path d="M 77.76 148.849234 
 L 820.8 148.849234 
-" clip-path="url(#p59b6bee587)" style="fill: none; stroke: #e5e9ec; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p092f6a33d4)" style="fill: none; stroke: #e5e9ec; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_26"/>
      <g id="text_20">
@@ -1193,17 +1193,17 @@ L 771.731321 377.701609
 L 785.750943 371.152949 
 L 799.770566 366.966789 
 L 813.790189 360.444598 
-" clip-path="url(#p59b6bee587)" style="fill: none; stroke: #9aa5b1; stroke-width: 2.4; stroke-linecap: square"/>
+" clip-path="url(#p092f6a33d4)" style="fill: none; stroke: #9aa5b1; stroke-width: 2.4; stroke-linecap: square"/>
    </g>
    <g id="line2d_28">
     <path d="M 84.769811 354.342584 
 L 98.789434 345.808297 
-" clip-path="url(#p59b6bee587)" style="fill: none; stroke: #176b91; stroke-width: 3; stroke-linecap: square"/>
+" clip-path="url(#p092f6a33d4)" style="fill: none; stroke: #176b91; stroke-width: 3; stroke-linecap: square"/>
    </g>
    <g id="line2d_29">
     <path d="M 98.789434 391.68 
 L 98.789434 122.4 
-" clip-path="url(#p59b6bee587)" style="fill: none; stroke-dasharray: 1,1.65; stroke-dashoffset: 0; stroke: #176b91; stroke-opacity: 0.25"/>
+" clip-path="url(#p092f6a33d4)" style="fill: none; stroke-dasharray: 1,1.65; stroke-dashoffset: 0; stroke: #176b91; stroke-opacity: 0.25"/>
    </g>
    <g id="patch_3">
     <path d="M 77.76 391.68 
@@ -1213,11 +1213,11 @@ L 820.8 391.68
    <g id="line2d_30">
     <path d="M 126.828679 391.68 
 L 126.828679 122.4 
-" clip-path="url(#p59b6bee587)" style="fill: none; stroke-dasharray: 3.9,3.9; stroke-dashoffset: 0; stroke: #7951a0; stroke-opacity: 0.75; stroke-width: 1.3"/>
+" clip-path="url(#p092f6a33d4)" style="fill: none; stroke-dasharray: 3.9,3.9; stroke-dashoffset: 0; stroke: #7951a0; stroke-opacity: 0.75; stroke-width: 1.3"/>
    </g>
    <g id="PathCollection_1">
     <defs>
-     <path id="m45d5b0ef14" d="M 0 3.535534 
+     <path id="mdc35244806" d="M 0 3.535534 
 C 0.937635 3.535534 1.836992 3.163008 2.5 2.5 
 C 3.163008 1.836992 3.535534 0.937635 3.535534 0 
 C 3.535534 -0.937635 3.163008 -1.836992 2.5 -2.5 
@@ -1229,8 +1229,8 @@ C -1.836992 3.163008 -0.937635 3.535534 0 3.535534
 z
 " style="stroke: #176b91"/>
     </defs>
-    <g clip-path="url(#p59b6bee587)">
-     <use xlink:href="#m45d5b0ef14" x="98.789434" y="345.808297" style="fill: #176b91; stroke: #176b91"/>
+    <g clip-path="url(#p092f6a33d4)">
+     <use xlink:href="#mdc35244806" x="98.789434" y="345.808297" style="fill: #176b91; stroke: #176b91"/>
     </g>
    </g>
    <g id="legend_1">
@@ -2376,7 +2376,7 @@ z
    </g>
   </g>
   <g id="text_29">
-   <!-- Source: CDC FluView · National clinical laboratories · Retrieved 2026-10-25 -->
+   <!-- Source: CDC FluView · National clinical laboratories · Retrieved 2026-10-26 -->
    <g style="fill: #596673" transform="translate(77.76 463.494551) scale(0.09 -0.09)">
     <defs>
      <path id="DejaVuSans-26" d="M 4122 4306 
@@ -2513,7 +2513,7 @@ z
     <use xlink:href="#DejaVuSans-13" transform="translate(3525.421875 0)"/>
     <use xlink:href="#DejaVuSans-10" transform="translate(3589.046875 0)"/>
     <use xlink:href="#DejaVuSans-15" transform="translate(3625.125 0)"/>
-    <use xlink:href="#DejaVuSans-18" transform="translate(3688.75 0)"/>
+    <use xlink:href="#DejaVuSans-19" transform="translate(3688.75 0)"/>
    </g>
    <!-- All influenza (A + B) · Colors identify seasons · Aligned by surveillance week; missing weeks are gaps. Calendar marker is not a reported value. -->
    <g style="fill: #596673" transform="translate(77.76 474.297012) scale(0.09 -0.09)">
@@ -2770,7 +2770,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p59b6bee587">
+  <clipPath id="p092f6a33d4">
    <rect x="77.76" y="122.4" width="743.04" height="269.28"/>
   </clipPath>
  </defs>
