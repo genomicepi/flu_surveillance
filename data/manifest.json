@@ -1,12 +1,12 @@
 {
-  "retrieved_at_utc": "20261029T183041223281Z",
+  "retrieved_at_utc": "20261030T182657913034Z",
   "endpoint": "https://gis.cdc.gov/flu2/PostPhase02StackedColumnChartDataDownload",
   "geography": "National",
   "laboratories": "Clinical",
   "seasons": [
     {
       "label": "2026-27",
-      "rows": 2,
+      "rows": 3,
       "request": {
         "AppVersion": "Public",
         "DatasourceDT": [
@@ -32,9 +32,9 @@
       },
       "last_observation": [
         2026,
-        41
+        42
       ],
-      "report_url": "https://www.cdc.gov/fluview/surveillance/2026-week-41.html"
+      "report_url": "https://www.cdc.gov/fluview/surveillance/2026-week-42.html"
     },
     {
       "label": "2025-26",
