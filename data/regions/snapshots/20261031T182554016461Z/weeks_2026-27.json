@@ -1,0 +1,38 @@
+[
+  {
+    "mmwrid": 3380,
+    "weekend": "2026-10-10",
+    "weekendlabel": "Oct 10, 2026",
+    "weekendlabel2": "Oct-10-2026",
+    "weeknumber": 40,
+    "weekstart": "2026-10-04",
+    "year": 2026,
+    "yearweek": 202640,
+    "seasonid": 66,
+    "label": "40"
+  },
+  {
+    "mmwrid": 3381,
+    "weekend": "2026-10-17",
+    "weekendlabel": "Oct 17, 2026",
+    "weekendlabel2": "Oct-17-2026",
+    "weeknumber": 41,
+    "weekstart": "2026-10-11",
+    "year": 2026,
+    "yearweek": 202641,
+    "seasonid": 66,
+    "label": "41"
+  },
+  {
+    "mmwrid": 3382,
+    "weekend": "2026-10-24",
+    "weekendlabel": "Oct 24, 2026",
+    "weekendlabel2": "Oct-24-2026",
+    "weeknumber": 42,
+    "weekstart": "2026-10-18",
+    "year": 2026,
+    "yearweek": 202642,
+    "seasonid": 66,
+    "label": "42"
+  }
+]
