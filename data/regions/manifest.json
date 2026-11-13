@@ -1,5 +1,5 @@
 {
-  "retrieved_at_utc": "20261112T182726934508Z",
+  "retrieved_at_utc": "20261113T182559997458Z",
   "endpoint": "https://gis.cdc.gov/flu2/PostPhase02StackedColumnChartDataDownload",
   "seasons": [
     "2026-27",
@@ -53,6 +53,18 @@
       "yearweek": 202643,
       "seasonid": 66,
       "label": "43"
+    },
+    {
+      "mmwrid": 3384,
+      "weekend": "2026-11-07",
+      "weekendlabel": "Nov 07, 2026",
+      "weekendlabel2": "Nov-07-2026",
+      "weeknumber": 44,
+      "weekstart": "2026-11-01",
+      "year": 2026,
+      "yearweek": 202644,
+      "seasonid": 66,
+      "label": "44"
     },
     {
       "mmwrid": 3327,
@@ -708,7 +720,7 @@
         {
           "season": "2026-27",
           "file": "clinical_hhs_01_2026-27.csv",
-          "rows": 4,
+          "rows": 5,
           "request": {
             "AppVersion": "Public",
             "DatasourceDT": [
@@ -777,7 +789,7 @@
         {
           "season": "2026-27",
           "file": "clinical_hhs_02_2026-27.csv",
-          "rows": 4,
+          "rows": 5,
           "request": {
             "AppVersion": "Public",
             "DatasourceDT": [
@@ -848,7 +860,7 @@
         {
           "season": "2026-27",
           "file": "clinical_hhs_03_2026-27.csv",
-          "rows": 4,
+          "rows": 5,
           "request": {
             "AppVersion": "Public",
             "DatasourceDT": [
@@ -921,7 +933,7 @@
         {
           "season": "2026-27",
           "file": "clinical_hhs_04_2026-27.csv",
-          "rows": 4,
+          "rows": 5,
           "request": {
             "AppVersion": "Public",
             "DatasourceDT": [
@@ -992,7 +1004,7 @@
         {
           "season": "2026-27",
           "file": "clinical_hhs_05_2026-27.csv",
-          "rows": 4,
+          "rows": 5,
           "request": {
             "AppVersion": "Public",
             "DatasourceDT": [
@@ -1062,7 +1074,7 @@
         {
           "season": "2026-27",
           "file": "clinical_hhs_06_2026-27.csv",
-          "rows": 4,
+          "rows": 5,
           "request": {
             "AppVersion": "Public",
             "DatasourceDT": [
@@ -1131,7 +1143,7 @@
         {
           "season": "2026-27",
           "file": "clinical_hhs_07_2026-27.csv",
-          "rows": 4,
+          "rows": 5,
           "request": {
             "AppVersion": "Public",
             "DatasourceDT": [
@@ -1202,7 +1214,7 @@
         {
           "season": "2026-27",
           "file": "clinical_hhs_08_2026-27.csv",
-          "rows": 4,
+          "rows": 5,
           "request": {
             "AppVersion": "Public",
             "DatasourceDT": [
@@ -1272,7 +1284,7 @@
         {
           "season": "2026-27",
           "file": "clinical_hhs_09_2026-27.csv",
-          "rows": 4,
+          "rows": 5,
           "request": {
             "AppVersion": "Public",
             "DatasourceDT": [
@@ -1341,7 +1353,7 @@
         {
           "season": "2026-27",
           "file": "clinical_hhs_10_2026-27.csv",
-          "rows": 4,
+          "rows": 5,
           "request": {
             "AppVersion": "Public",
             "DatasourceDT": [
